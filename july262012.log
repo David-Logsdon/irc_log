@@ -1,0 +1,193 @@
+﻿
+
+**** BEGIN LOGGING AT Wed Jul 25 06:45:52 2012
+
+Jul 25 07:26:54 *	You are now known as Frazzle
+Jul 25 12:29:57 <zeffii>	http://www.youtube.com/watch?v=M5IPlMe83yI   web2py: ideas we stole and ideas we had
+Jul 25 12:30:13 <zeffii>	this will act as a dumping ground too for links that relate to what we will be doing :)
+Jul 25 12:30:49 <zeffii>	we can sync up the logs regularly for multiple backups
+Jul 25 12:50:50 <AnthonyUdacity>	Hey everyone
+Jul 25 13:05:25 <Frazzle>	howdy
+Jul 25 13:30:37 <zeffii>	ola!
+Jul 25 13:46:30 <Frazzle>	AnthonyUdacity, are you there?
+Jul 25 13:46:43 <AnthonyUdacity>	Yes
+Jul 25 13:47:16 <AnthonyUdacity>	How's everything going?
+Jul 25 13:47:45 <Frazzle>	good I just had breakfast
+Jul 25 13:49:28 <Frazzle>	I added a link to the irc logs on the wiki
+Jul 25 13:50:50 <Frazzle>	That way the others can read the log and add feedback when we are not here
+Jul 25 13:51:30 <Frazzle>	ITs seems that we will never all get together at the same time
+Jul 25 13:53:10 <Frazzle>	zeffii,  what is that link to web2py for?
+Jul 25 13:56:33 <Frazzle>	I see we have udacians/magazine repo going
+Jul 25 19:17:33 <markup>	Hi David
+Jul 25 20:10:46 <markup>	Hey Anthony, here now
+Jul 25 20:11:38 <Frazzle>	I am here for about 15 min
+Jul 25 20:13:21 <markup>	@David, might I ask where you're located?
+Jul 25 20:13:22 <Frazzle>	then off to work:(
+Jul 25 20:13:31 <markup>	your timezone, at least
+Jul 25 20:13:34 <Frazzle>	south florida
+Jul 25 20:13:51 <Frazzle>	but I work nights
+Jul 25 20:14:03 <markup>	I see.
+Jul 25 20:18:28 <Frazzle>	If You see others in here if they say what they think about things to be done or that they would like to see in the project. i will go through the logs and put together a summary of items mentioned.
+Jul 25 20:19:04 <markup>	great.
+Jul 25 20:19:52 <markup>	Can you quickly mention what you'd think the basic requirements should be for the site… what features should it have on launch day?
+Jul 25 20:20:00 <Frazzle>	We may never all be able to get together at the same time and I want to get things moving
+Jul 25 20:20:20 <markup>	Agreed.
+Jul 25 20:20:59 <Frazzle>	https://dl.dropbox.com/u/43669141/My_Thoughts.txt
+Jul 25 20:22:50 <markup>	ok. re-reading
+Jul 25 20:23:42 <Frazzle>	I was hoping to get feedback from everyone
+Jul 25 20:24:07 <markup>	Just to be sure we're talking about the same thing… by social network sharing, you mean like/tweet/share buttons, right?
+Jul 25 20:24:47 <Frazzle>	yes but I could live without linked-in
+Jul 25 20:25:56 <markup>	Everyone = you and I, Anthony, and zeffii, and maybe elssar.
+Jul 25 20:26:38 <markup>	Let's just forge ahead with it and we can change things down the line based on ocmmunity feedback.
+Jul 25 20:27:00 <Frazzle>	I dont care how many I just want to get going 
+Jul 25 20:27:24 <Frazzle>	I agree You want to use NDB?
+Jul 25 20:28:09 <markup>	yes, ndb
+Jul 25 20:28:43 <Frazzle>	that way I get to learn something
+Jul 25 20:29:15 <Frazzle>	I have read about it but not used it yet
+Jul 25 20:30:01 <Frazzle>	I gotta go say good bye to un_Frazzle
+Jul 25 20:30:14 *	You are now known as Un_Frazzle
+Jul 25 20:30:32 <markup>	Have a good day at work. Catch you tomorrow.
+Jul 25 20:36:03 <AnthonyUdacity>	marksup still  here?
+Jul 25 20:36:16 <markup>	I am. Hi!
+Jul 25 20:37:03 <markup>	Frazzle/David just left
+Jul 25 20:39:45 <AnthonyUdacity>	no problem.
+Jul 25 20:41:58 <AnthonyUdacity>	Wanted to share an idea with you all. To save everyone time and trouble.
+Jul 25 20:42:26 <markup>	Go on…
+Jul 25 20:42:28 <markup>	:)
+Jul 25 20:53:43 <markup>	The suspense is killing me :P
+Jul 25 20:56:02 <AnthonyUdacity>	Haha. Sorry about that.
+Jul 25 20:56:20 <AnthonyUdacity>	Trying and failing to multitask.
+Jul 25 20:56:21 <markup>	np :)
+Jul 25 20:57:02 <AnthonyUdacity>	I'm sure you have the Contests of Contests thread?
+Jul 25 20:57:10 <AnthonyUdacity>	http://forums.udacity.com/cs253/questions/30550/official-contest-of-contests-for-all-students
+Jul 25 20:57:44 <markup>	yup.
+Jul 25 20:58:33 <markup>	You want this magazine thingy built in to the social network?
+Jul 25 21:07:39 <AnthonyUdacity>	Haha read my mind.
+Jul 25 21:08:17 <AnthonyUdacity>	If you're up for it.
+Jul 25 21:09:54 <markup>	Sounds like a good idea to me.
+Jul 25 21:10:07 <AnthonyUdacity>	You, Frazzle, Elssar, SempaiScuba are good leaders and you bring good ideas to the table. So I'd like you all to forge the initiative with this idea.
+Jul 25 21:10:16 <AnthonyUdacity>	I think you all will have a lot of support.
+Jul 25 21:10:33 <AnthonyUdacity>	And I'll definitely be more involved since this will tie directly into a larger project that I have in the works.
+Jul 25 21:11:03 <AnthonyUdacity>	But of course, I will not be around all of the time. And you all are obviously overqualified to achieve this.
+Jul 25 21:12:57 <markup>	I love the idea, and think the others will too.
+Jul 25 21:13:05 <AnthonyUdacity>	My suggestions, if possible: keep it **simple**. Get in touch with those students who were pushing the idea in the contest.
+Jul 25 21:14:14 <markup>	+1 on keeping it simple.
+Jul 25 21:15:04 <AnthonyUdacity>	Especially @Arsian
+Jul 25 21:15:12 <AnthonyUdacity>	*@Arslan
+Jul 25 21:16:02 <AnthonyUdacity>	Think of the social part of this as a framework.
+Jul 25 21:16:15 <markup>	One thing to consider… the magazine could be heavily cached and be very inexpensive. A social network is a different beast altogether. Udacity will have to foot the bill or it won't work.
+Jul 25 21:16:20 <AnthonyUdacity>	And the magazine a feature.
+Jul 25 21:17:02 <AnthonyUdacity>	This is true. But it has to gain traction and approvement beforehand.
+Jul 25 21:17:50 <AnthonyUdacity>	Near the middle of next week I'll have more free time.
+Jul 25 21:19:23 <AnthonyUdacity>	I anticipate that the initial number of users will be small enough to manage.
+Jul 25 21:19:34 <AnthonyUdacity>	Moreover, I want a good majority of students to be able to participate.
+Jul 25 21:19:49 <markup>	Sounds good. Each feature will be a different app within the website. The core of a social network is the user profile page. That would be one app. Then you'd have a magazine app, a comments app, etc. At least I think that's how it will work.
+Jul 25 21:20:04 <AnthonyUdacity>	and more
+Jul 25 21:20:10 <AnthonyUdacity>	You, my friend, are a mindreader.
+Jul 25 21:20:14 <markup>	So we might be able to have different teams working on different apps, etc
+Jul 25 21:20:28 <markup>	hehe
+Jul 25 21:20:37 <AnthonyUdacity>	EXACTLY!
+Jul 25 21:21:43 <AnthonyUdacity>	The other apps I have in mind & will share later
+Jul 25 21:21:57 <markup>	cool.
+Jul 25 21:26:12 <AnthonyUdacity>	To go more in depth, each team should not only work on different apps, but we should have teams working on different parts of different apps.
+Jul 25 21:26:17 <AnthonyUdacity>	starting with the magazine.
+Jul 25 21:26:37 <AnthonyUdacity>	I wouldn't mind merging the code by hand
+Jul 25 21:26:48 <AnthonyUdacity>	If people find GitHub hard to deal with.
+Jul 25 21:27:02 <AnthonyUdacity>	I don't want to alienate those students who are not "experienced" programmers.
+Jul 25 21:28:36 <markup>	Yeah, keeping the barriers to entry low is good.
+Jul 25 21:29:26 <markup>	That said, with http://mac.github.com/ and http://windows.github.com/ you don't even know how to use git to contribute… just a few clicks. Easier to set up than GAE Launcher
+Jul 25 21:30:03 <AnthonyUdacity>	Haha good point. I wanted to push the UI app, but I didn't personally like it.
+Jul 25 21:30:05 <markup>	Someone will write a beginners git tutorial for the magazine
+Jul 25 21:30:07 <AnthonyUdacity>	but you're right, it should work.
+Jul 25 21:30:11 <AnthonyUdacity>	+1 to that :)
+Jul 25 21:55:48 <AnthonyUdacity>	@mark_up So is this something we should initiate?
+Jul 25 21:55:57 <AnthonyUdacity>	In your opinion?
+Jul 25 22:04:28 <markup>	I have shitty internet today.
+Jul 26 06:23:58 *	jin is now known as jinkoo
+Jul 26 06:45:15 <jinkoo>	yo
+Jul 26 06:46:47 <zeffii>	hey!
+Jul 26 06:48:18 <zeffii>	Un_Frazzle, with a small IRC crowd logs will remain nice and short per day
+Jul 26 06:48:44 <zeffii>	and won't be too much hassle for people to read
+Jul 26 06:49:54 <zeffii>	logs can act as great timelines, and eventually - if this thing gets a kickstart - we can do nice visualization of how it all started
+Jul 26 06:50:44 <zeffii>	sup jinkoo
+Jul 26 06:50:57 <markup>	hey zeffii
+Jul 26 06:51:07 <zeffii>	markup!
+Jul 26 06:52:44 <jinkoo>	markdown!
+Jul 26 06:52:49 <jinkoo>	kidding...
+Jul 26 06:53:10 <markup>	hehe
+Jul 26 06:53:53 <markup>	Anthony would like to merge this initiative with the social network project (from the contest of contests thread). Basically the magazine would become an app within the larger web app.
+Jul 26 06:54:41 <markup>	We had a discussion on here today… hopefully Frazzle will be able to put the logs in his repo for all to read
+Jul 26 06:55:22 <zeffii>	i've been toying aroudn with a CMS, not ready for any production environment but : http://zeffii.github.com/zen_cms/
+Jul 26 06:56:06 <zeffii>	click on Text Appeal for google prettify mixed into markdown/showdown
+Jul 26 06:58:01 <zeffii>	i hope we retain some autonomy as a student initiative
+Jul 26 06:59:35 <markup>	Cool stuff.
+Jul 26 06:59:52 <markup>	Can I see the source? zen_cms repo appears to be empty
+Jul 26 07:00:06 <zeffii>	the branch is gh-pages
+Jul 26 07:00:47 <markup>	ah, sorry, didn't notice the branch
+Jul 26 07:01:43 <zeffii>	it's not very streamlined for a few reasons... didn't find a nice way to debug why gists don't embed
+Jul 26 07:02:25 <zeffii>	but it might be a https://github dependancy
+Jul 26 07:02:54 <zeffii>	anyway, not attached to any of the code it's just exploration
+Jul 26 07:05:08 <markup>	love the 3d stuff on your website btw.
+Jul 26 07:05:41 <zeffii>	thank you :)
+Jul 26 07:06:56 <zeffii>	having an opensource tool like blender with python support is fantastic
+Jul 26 07:07:32 <markup>	:)
+Jul 26 07:08:52 <markup>	> i hope we retain some autonomy as a student initiative
+Jul 26 07:09:31 <markup>	I believe we'll have that until the project is a success.
+Jul 26 07:12:19 <markup>	Anyway, next step is for someone to write specifications. I can't write, so it'll either be one of you good folk, or we will dive right in and write code without any written spec.
+Jul 26 07:12:43 <zeffii>	let's keep the specs minimal at first.
+Jul 26 07:13:45 <markup>	I agree that is probably best.
+Jul 26 07:13:49 <zeffii>	good software design is modular, so it doesn't need to know how it ens up being used :)
+Jul 26 07:13:50 <jinkoo>	yay spec-less code
+Jul 26 07:14:25 <markup>	@jinkoo my sarcasm detector is beeping away :P
+Jul 26 07:14:25 <zeffii>	also possibly maintain a list of things we don't want to see in the code and why
+Jul 26 07:15:59 <jinkoo>	comments
+Jul 26 07:16:02 <jinkoo>	I HATE comments
+Jul 26 07:16:11 <jinkoo>	taking up useless bytes
+Jul 26 07:16:15 <zeffii>	remember, early nasa software was written without specs :)
+Jul 26 07:16:23 <jinkoo>	also variable names more than three letters long.
+Jul 26 07:16:57 <markup>	Hey, you can't have both. Pick one… lots of comments, or descriptive variable names :P
+Jul 26 07:16:58 <zeffii>	you are a sick, sick man.
+Jul 26 07:17:33 <zeffii>	descriptive variable names > comments
+Jul 26 07:17:56 <zeffii>	but by all means use aliasing to keep things clean
+Jul 26 07:17:58 <jinkoo>	I was going to put the code for my CS253 stuff up to show the separation of classes, but that's probably a bad idea
+Jul 26 07:18:13 <zeffii>	dpc = data_protection_cache = { }
+Jul 26 07:18:44 <markup>	@jinkoo… do you have a github account?
+Jul 26 07:18:51 <markup>	Would be nice to see.
+Jul 26 07:19:09 <jinkoo>	https://github.com/nixhope/
+Jul 26 07:19:25 <zeffii>	i had to resist hard not to stick the full web app on github
+Jul 26 07:19:46 <jinkoo>	I'm not putting the source for the web app up, it's too close to just uploading assignment answers.
+Jul 26 07:20:00 <jinkoo>	source for https://udacityplus.appspot.com/main is up.
+Jul 26 07:20:15 <jinkoo>	Gotta get it working on Chrome, then add the tab features.
+Jul 26 07:20:19 <markup>	But the assignment answers has already been uploaded by steve himself
+Jul 26 07:20:52 <markup>	have
+Jul 26 07:20:53 <zeffii>	stick some padding in your content div :)
+Jul 26 07:20:53 <jinkoo>	oh, have they?
+Jul 26 07:20:56 <jinkoo>	for the wiki?
+Jul 26 07:21:13 <zeffii>	i would like to see his wiki interpretation too
+Jul 26 07:22:24 <markup>	hmm, not sure now. Huffman was uploading all his code a week after an assignment was due.
+Jul 26 07:22:44 <jinkoo>	How does that link with the "finish a course whenever" policy?
+Jul 26 07:23:32 <markup>	Because the qualification is useless anyway. If you want to learn, you do the work, if you cheat, you're only cheating yourself.
+Jul 26 07:24:06 <zeffii>	> If you want to learn, you do the work,
+Jul 26 07:24:17 <zeffii>	great sub title for the mag
+Jul 26 07:24:25 <markup>	lol
+Jul 26 07:24:29 <zeffii>	true tho
+Jul 26 07:24:44 <zeffii>	no point people regurgitating and spoonfeeding :)
+Jul 26 07:25:25 <zeffii>	but i think steve did a good job at backing off from spoonfeeding
+Jul 26 07:25:44 <markup>	@jinkoo it's a little annoying at first, I know. To think that you worked hard to come up with your own solution and then realize that you get the same certfiicate as the other guy who just copypasted code.
+Jul 26 07:26:37 <markup>	It's a pity you weren't around for the first run of the course… that was fun.
+Jul 26 07:27:42 <jinkoo>	I like his rather cavalier coverage of some key themes: templating, OO, some other stuff. I was just thinking "people will have to actually do research"
+Jul 26 07:29:41 <markup>	Anyway, i gotta head off soon.
+Jul 26 07:30:21 <markup>	If nobody else does so, I'll commit some code tomorrow and you folks can rip it apart.
+Jul 26 07:30:30 <jinkoo>	I need to work out how to debug on Chrome.
+Jul 26 07:45:59 <zeffii>	markup on your github?
+Jul 26 07:46:15 <zeffii>	we can discuss commit access
+Jul 26 07:47:27 <jinkoo>	probably the udacious githun
+Jul 26 07:49:07 <jinkoo>	*github
+Jul 26 07:49:14 <zeffii>	jinko,  // isn't great for css comments
+Jul 26 07:51:08 <jinkoo>	which site?
+Jul 26 07:51:28 <zeffii>	https://dl.dropbox.com/u/3397495/protodidact/udacity/index.html
+Jul 26 07:53:01 <jinkoo>	oh hey look at that
+Jul 26 07:53:44 <jinkoo>	I guess they crept in from the JS work
+Jul 26 08:12:48 <jinkoo>	sleep time
+**** ENDING LOGGING AT Thu Jul 26 08:21:43 2012
+
