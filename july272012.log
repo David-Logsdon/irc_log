@@ -1,0 +1,85 @@
+﻿**** BEGIN LOGGING AT Thu Jul 26 08:22:24 2012
+
+Jul 26 12:16:28 *	Received a CTCP TIME from AnthonyUdacity
+Jul 26 17:07:47 *	You are now known as Frazzle
+Jul 26 19:53:52 <Frazzle>	markup, Howdy
+Jul 26 19:58:32 <markup>	Hey Frazzle
+Jul 26 20:03:23 <Frazzle>	How goes it
+Jul 26 20:13:45 <markup>	good, thanks.
+Jul 26 20:15:31 <markup>	What do you think about the magazine being part of the larger website?
+Jul 26 20:15:38 <Frazzle>	Let me know if You think this is simple enough for a non-web developer to use. : https://gist.github.com/3185347
+Jul 26 20:16:45 <Frazzle>	I'm ok with that, as long as we work on this before spliting up to help other teams
+Jul 26 20:17:37 <Frazzle>	I still need to add more to it
+Jul 26 20:18:51 <markup>	Looks good
+Jul 26 20:19:56 <markup>	Simple enough. If someone has trouble, they can always just send us a text or word document and we can format it ourselves.
+Jul 26 20:20:07 <Frazzle>	We could  commenting system to let the other teams have a headstart
+Jul 26 20:20:23 <Frazzle>	insert seperate
+Jul 26 20:20:54 <markup>	Yes, the commenting system will need to be its own app
+Jul 26 20:21:39 <markup>	An app for commenting, an app for articles, an app for user profiles, etc
+Jul 26 20:22:06 <Frazzle>	yes that is easy enough
+Jul 26 20:22:22 <Frazzle>	I like the idea.
+Jul 26 20:22:50 <Frazzle>	the runner-up Idea I like too
+Jul 26 20:24:19 <markup>	Gotta work on my day job for the next 6hrs, but then will have around 4hrs to write some code.
+Jul 26 20:24:43 <Frazzle>	ok see you tomorow
+Jul 26 20:25:28 <markup>	i telecommute, so i'll be online the entire time… just not writing code for the website until after
+Jul 26 20:29:27 <markup>	runner-up idea is great, but way too tough to be a student project
+Jul 26 20:30:16 <markup>	Would have to be javascript based
+Jul 26 21:17:48 *	You are now known as Un_Frazzle
+Jul 26 21:40:23 <jinkoo>	markup: so are you writing some code?
+Jul 26 21:40:45 <markup>	>Gotta work on my day job for the next 6hrs, but then will have around 4hrs to write some code.
+Jul 26 21:40:53 <markup>	> i telecommute, so i'll be online the entire time… just not writing code for the website until after
+Jul 26 21:43:15 <markup>	Don't let me hold you back :)
+Jul 26 21:51:32 <jinkoo>	I'm still working on Udacity Plus.
+Jul 26 21:51:53 <markup>	cool
+Jul 26 21:52:10 <jinkoo>	I moved to gm_XHR instead of jsonp
+Jul 26 21:52:23 <jinkoo>	or rather my hack-to-getjsonp-working-with-greasemonkey
+Jul 26 21:52:43 <jinkoo>	hopefully at some point the functionality promised in the udacity.com source will be added
+Jul 26 22:03:05 <jinkoo>	I still don't have a sufficiently clear handle on the scope in order to write any code
+Jul 26 22:03:15 <jinkoo>	my spec-less code comment notwithstanding
+Jul 26 22:04:08 <markup>	We start with the blog we created during the course, change it a little, and then we add features.
+Jul 26 22:05:04 <markup>	A spec would be nice, but unless someone volunteers to write it, we will just have to wing it.
+Jul 26 22:11:24 <AnthonyUdacity>	Hey everyone! How's it going?
+Jul 26 22:11:32 <markup>	Hey Anthony
+Jul 26 22:12:44 <AnthonyUdacity>	@markup Are you still prepared to integrate the magazine w/ social?
+Jul 26 22:15:16 <markup>	Yup. No objections from anyone so far.
+Jul 26 22:15:56 *	ChanServ gives channel operator status to AnthonyUdacity
+Jul 26 22:16:09 <--	AnthonyUdacity has kicked udacityu from ##udacitymagazine (udacityu)
+Jul 26 22:16:43 <AnthonyUdacity>	That great to hear. Just wanted to confirm before it was officially announced.
+Jul 26 22:16:47 <AnthonyUdacity>	So everyone is on the same page?
+Jul 26 22:18:30 <markup>	Yes. Not everyone is interested in the whole thing, but since we'll be keeping it modular, everyone can work on just the bit they're interested in.
+Jul 26 22:19:37 <AnthonyUdacity>	Right, of course.
+Jul 26 22:26:53 <AnthonyUdacity>	I've come up with a basic framework for the site. It does, admittedly yet unpurposefully, resemble Facebook. However, I'm comfortable with the design as I plan to pull in content from the forum since leading users away from the forum is something I cannot support.
+Jul 26 22:28:23 <markup>	Any chance we can get a peek at it?
+Jul 26 22:29:01 <AnthonyUdacity>	After I make the announcement of the winning social network entry, we'll start by gather everyone's ideas (everyone = all students on the forum who want to participate) concerning the functionality that they'd like to see. We'll prioritize this list, break up into teams, and begin work.
+Jul 26 22:29:44 <jinkoo>	Anthony: you might be interested in Udacity Plus :). Maybe at some point we can merge.
+Jul 26 22:30:10 <jinkoo>	One thing that I want to get working soon is the ability to + a forum question or answer to upvote it to article status
+Jul 26 22:30:13 <AnthonyUdacity>	@markup Know that the framework is only conceptual. I plan to mock it up in the next couple of days.
+Jul 26 22:30:32 <markup>	ok
+Jul 26 22:30:47 <AnthonyUdacity>	@jinkoo UdacityPlus? Do you have a link?
+Jul 26 22:31:47 <markup>	Guys. Gotta head out, pick up my son from school. Back in 30mins.
+Jul 26 22:31:59 <AnthonyUdacity>	@markup Talk to you later.
+Jul 26 22:33:27 <jinkoo>	https://udacityplus.appspot.com
+Jul 26 22:33:31 <jinkoo>	also on github
+Jul 26 22:33:35 <AnthonyUdacity>	Just checked it out.
+Jul 26 22:33:39 <jinkoo>	although I haven't pushed an update
+Jul 26 22:33:52 <jinkoo>	*the latest update, which is more a functionality fix
+Jul 26 22:34:03 <jinkoo>	it's obviously still in development, but I wanted to post it up
+Jul 26 22:34:07 <AnthonyUdacity>	Is this your project?
+Jul 26 22:34:22 <jinkoo>	yeah
+Jul 26 22:34:29 <AnthonyUdacity>	Nice!
+Jul 26 22:35:40 <AnthonyUdacity>	So the Articles are popular forum posts?
+Jul 26 22:36:45 <jinkoo>	yeah, I just mocked something up as you can see.
+Jul 26 22:37:19 <jinkoo>	You can read the mock-ups yourself.
+Jul 26 22:37:20 <jinkoo>	https://udacityplus.appspot.com/api/articles/get?fn=content
+Jul 26 22:38:12 <jinkoo>	In future people will themselves be able to '+' a post so that it gets nominated for article status. There will also be a crawler to find good posts.
+Jul 26 22:39:00 <AnthonyUdacity>	When this UdacityMagazine magazine project becomes functional, I think the extension you've developed would definitely be a cool add-on to merge with.
+Jul 26 22:39:12 <jinkoo>	But those ones there I crawled a few pages, and then wrote a 1-2 sentence description of some of the most promising posts.
+Jul 26 22:41:05 <AnthonyUdacity>	@jinkoo Good work though. I have to head out. I'll catch up with everyone later.
+Jul 26 23:12:26 <jinkoo>	it's other me
+Jul 26 23:12:46 <darksentinel>	yes, yes it is
+Jul 27 00:53:53 <elssar>	Hey
+Jul 27 02:22:12 <darksentinel>	back
+Jul 27 03:34:48 <darksentinel>	yo
+Jul 27 03:35:03 <darksentinel>	https://github.com/nixhope/basic-wikiblog
+Jul 27 03:42:31 <darksentinel>	in case anyone wants to build on that for a CMS.
+Jul 27 04:01:37 <markup>	good stuff.
