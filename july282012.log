@@ -1,0 +1,131 @@
+﻿*
+
+**** BEGIN LOGGING AT Fri Jul 27 06:59:13 2012
+
+Jul 27 07:39:57 *	You are now known as Frazzle
+Jul 27 07:44:15 <jinkoo>	yo
+Jul 27 07:56:54 <Frazzle>	Yo-Yo
+Jul 27 07:57:07 <Frazzle>	Rush fan huh?
+Jul 27 08:47:01 <jinkoo>	Any exciting developments?
+Jul 27 08:48:51 <zeffii>	i continued writing content
+Jul 27 08:49:26 <jinkoo>	We could use markdown for the article format. People will be familiar with it from the forums.
+Jul 27 08:49:46 <zeffii>	yeah i'm for that
+Jul 27 08:49:50 <zeffii>	see my mockups
+Jul 27 08:50:22 <zeffii>	http://zeffii.github.com/zen_cms/
+Jul 27 08:50:29 <zeffii>	(the last three menu items
+Jul 27 08:50:31 <zeffii>	)
+Jul 27 08:50:50 <zeffii>	source: https://github.com/zeffii/zen_cms/tree/gh-pages
+Jul 27 08:51:19 <jinkoo>	looks good
+Jul 27 08:51:35 <zeffii>	scroll down on text appeal
+Jul 27 08:52:38 <jinkoo>	ugh, too late at night to read thin white font on grey
+Jul 27 08:52:50 <zeffii>	yeah i want a day/night switch
+Jul 27 08:53:12 <zeffii>	scroll down on 'text appeal'
+Jul 27 08:54:56 <jinkoo>	hmm, i don't like the static url
+Jul 27 08:56:04 <zeffii>	this is just a mockup
+Jul 27 08:56:22 <zeffii>	if it gets people angry thats great :)
+Jul 27 08:56:27 <jinkoo>	what am I scrolling for? Just blender stuff.
+Jul 27 08:56:40 <jinkoo>	well it means I can't link to one of your pages.
+Jul 27 08:57:03 <zeffii>	i meant for syntax highlighting
+Jul 27 08:57:32 <jinkoo>	oh yeah, it's good.
+Jul 27 08:57:54 <jinkoo>	I uploaded the skeleton of my CS253 code.
+Jul 27 08:58:16 <zeffii>	yeah the static url stuff, is not something i've experimented with in jquery
+Jul 27 08:58:44 <zeffii>	but it's all very easy in GAE :)
+Jul 27 09:16:31 <jinkoo>	god the udacity.com html is a mess of indentation.
+Jul 27 09:21:07 <zeffii>	it's probably templates inherited all the way down
+Jul 27 09:27:28 <jinkoo>	done badly :)
+Jul 27 09:28:10 <jinkoo>	ugh, 1:30 am.
+Jul 27 09:28:12 <jinkoo>	bed time.
+Jul 27 09:28:21 <zeffii>	goodnight!
+Jul 27 15:34:08 -groupcat-	[Olympic Global Notice] freenode wishes all of the Olympic competitors the best of luck in the upcoming Olympic Games, the opening ceremony kicks off in a little under 30 minutes.  A very British Hurrah to all!
+Jul 27 15:39:43 -groupcat-	[Olympic Global Notice] P.S. I was meant to say, talk about the games in ##olympics.
+Jul 27 18:03:38 *	Hayden is now known as Hayden|afk
+Jul 27 19:35:29 *	Hayden|afk is now known as Hayden
+Jul 27 19:54:46 *	Hayden is now known as goblin
+Jul 27 19:55:16 *	goblin is now known as Guest29381
+Jul 27 19:55:25 *	Guest29381 is now known as Frodo
+Jul 27 22:43:16 <Frazzle>	markup, Are You there?
+Jul 27 22:50:35 <Frazzle>	@zeffii when you read this the syntax highlighting you are using on your site, What html element is the javascript using? Amd how is the language declared? Also is there support for python?
+Jul 27 22:52:01 <markup>	Sorry, here now.
+Jul 27 22:52:36 <Frazzle>	How goes it?
+Jul 27 22:53:30 <markup>	not getting much done… hehe… beautiful sunny Saturday afternoon.
+Jul 27 22:56:02 <Frazzle>	At least it's nice
+Jul 27 22:56:38 <Frazzle>	If you dont mind where are you if it's sunny?
+Jul 27 22:56:51 <markup>	Fiji
+Jul 27 22:57:00 <Frazzle>	Nice
+Jul 27 22:57:47 <Frazzle>	I just pushed a first draft of article model to my branch
+Jul 27 22:58:00 <Frazzle>	fork
+Jul 27 23:01:16 <markup>	keyproperty looks interesting. First I've seen of it.
+Jul 27 23:04:12 <markup>	Looks good, Frazzle
+Jul 27 23:04:47 <markup>	I reckon author should be a referenceproperty though… referring to the Users model
+Jul 27 23:05:38 <Frazzle>	yes and ndb uses a different key property
+Jul 27 23:07:15 <Frazzle>	not to self change url_builder
+Jul 27 23:07:25 <Frazzle>	note lol
+Jul 27 23:08:47 <Frazzle>	keyproperty is ndb reference property
+Jul 27 23:09:18 <markup>	ok
+Jul 27 23:09:41 <Frazzle>	NDB cheat-sheet: https://docs.google.com/document/d/1AefylbadN456_Z7BZOpZEXDq8cR8LYu7QgI7bt5V0Iw/edit?pli=1
+Jul 27 23:10:02 <markup>	thanks
+Jul 28 00:11:44 <Frazzle>	jinkoo, How are you doing?
+Jul 28 00:18:57 <jinkoo>	fine fine
+Jul 28 00:19:23 <jinkoo>	weekend = shopping and chores
+Jul 28 00:19:30 <Frazzle>	Cool how goes udacity plus?
+Jul 28 00:19:37 <jinkoo>	maybe further work on my project tonight, coming along nicely
+Jul 28 00:19:56 <jinkoo>	it's good, should have upvote buttons working today or tomorrow.
+Jul 28 00:20:07 <jinkoo>	need to do proper server side authentication
+Jul 28 00:20:18 <Frazzle>	Cool chores never end in the morning I have to go get a bike I just bought
+Jul 28 00:23:20 <Frazzle>	Now that's what I call shopping!
+Jul 28 00:25:57 <jinkoo>	i bought groceries :/
+Jul 28 00:26:10 <Frazzle>	LOL
+Jul 28 00:37:21 <jinkoo>	anyone done anything interesting, project wise?
+Jul 28 00:40:09 <markup>	I've done some work, but nothing to show yet
+Jul 28 00:41:11 <markup>	Frazzle wrote a model: https://github.com/David-Logsdon/magazine/blob/master/article.py
+Jul 28 00:46:13 <jinkoo>	zeffii and I thought markdown might be an interesting idea to try.
+Jul 28 00:46:15 <Frazzle>	I need to change some of it though
+Jul 28 00:46:22 <jinkoo>	I've never implemented md.
+Jul 28 00:46:41 <Frazzle>	Nor have i.
+Jul 28 00:46:54 <jinkoo>	might be better than straight html.
+Jul 28 00:47:28 <jinkoo>	and people will have some familiarity with writing it
+Jul 28 00:47:44 <jinkoo>	although I found out recently adding extra #s makes font smaller, not bigger.
+Jul 28 00:47:48 <Frazzle>	The straight is for users to have a general Idea of the format we could implement a form too.
+Jul 28 00:48:21 <Frazzle>	insert html
+Jul 28 00:50:00 <jinkoo>	I think it would be cool if we could do it like the forums do: a textarea to write your article in markdown and a preview below that.
+Jul 28 00:50:06 <Frazzle>	That is true the forms have conditioned the users for markdown
+Jul 28 00:50:35 <jinkoo>	and markdown is a reasonable markup format, for all that I don't particularly like it
+Jul 28 00:51:08 <Frazzle>	I was thinking it takes a while to get a good article together so they could work offline
+Jul 28 00:51:16 <markup>	+1 for markdown.
+Jul 28 00:51:45 <markup>	Using it means we don't have to deal with the security nightmare that is html
+Jul 28 00:51:53 <jinkoo>	together with a style guide, markdown will give content a consistent look.
+Jul 28 00:51:57 <Frazzle>	True
+Jul 28 00:52:08 <jinkoo>	and writing it offline isn't a problem
+Jul 28 00:52:34 <jinkoo>	again, I don't really like md, but in this case it would be a reasonable idea.
+Jul 28 00:53:53 <Frazzle>	I was looking at zeffii's repo and it seems prettify doesnt support python.
+Jul 28 00:54:12 <Frazzle>	Agreed
+Jul 28 00:54:51 <markup>	we can use syntaxhighlighter. It's a much older project that supports just about everything.
+Jul 28 00:56:08 <Frazzle>	cool I don't want to support only some code. Does it support LaTeX?
+Jul 28 00:56:39 <Frazzle>	md I mean?
+Jul 28 00:57:27 <markup>	No idea. I am unfamiliar with LaTeX
+Jul 28 00:57:48 <Frazzle>	I'll google it
+Jul 28 00:58:35 <Frazzle>	https://github.com/justinvh/Markdown-LaTeX
+Jul 28 01:20:09 <Frazzle>	This looks interesting: http://www.steamdev.com/snippet/
+Jul 28 01:33:46 <jinkoo>	but we could just use pygments
+Jul 28 01:33:50 <jinkoo>	for syntax highlighting
+Jul 28 01:41:11 <Frazzle>	What about javascript css and others?
+Jul 28 01:43:52 <Frazzle>	I don't think we should limit it to just python
+Jul 28 01:45:39 <jinkoo>	well pygments uses css, the advantage being we produce the formated text in the application, rather than in the outputted content
+Jul 28 01:45:52 <jinkoo>	might be worth trying other methods though
+Jul 28 01:46:07 <jinkoo>	just need to keep external dependencies to a minimum, imo.
+Jul 28 02:06:53 <jinkoo>	I think in the long run we should try to implement all the great ideas in the metacontest.
+Jul 28 02:23:17 *	Disconnected (Connection reset by peer).
+**** ENDING LOGGING AT Sat Jul 28 02:23:17 2012
+
+**** BEGIN LOGGING AT Sat Jul 28 03:31:45 2012
+
+Jul 28 03:31:45 	Now talking on ##udacitymagazine
+Jul 28 03:31:45 *	Topic for ##udacitymagazine is: Tomorrow's illustrious Udacity Magazine
+Jul 28 03:31:45 *	Topic for ##udacitymagazine set by AnthonyUdacity!~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net at Tue Jul 24 02:32:36 2012
+Jul 28 03:32:45 <DavidLL>	Sorry lovely cable modem issues
+Jul 28 03:54:30 <jinkoo>	oh?
+Jul 28 05:07:53 	markup (~Adium@183.81.139.212) has joined ##udacitymagazine
+Jul 28 05:32:03 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Jul 28 08:10:19 	markup has quit (Quit: Leaving.)
+Jul 28 09:25:28 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Jul 28 18:49:13 	markup (~Adium@183.81.138.40) has joined ##udacitymagazine
