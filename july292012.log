@@ -1,0 +1,41 @@
+﻿**** BEGIN LOGGING AT Sat Jul 28 19:02:11 2012
+
+Jul 28 19:17:17 	jinkoo (~jinkoo@121.98.213.113) has joined ##udacitymagazine
+Jul 28 19:17:27 	zeffii has quit (Quit: Leaving)
+Jul 28 19:32:56 <DavidLL>	Hi all
+Jul 28 19:36:33 <DavidLL>	jinkoo, Do you have a list of good forum posts as seed for testing?
+Jul 28 19:37:24 <DavidLL>	I could use lorem
+Jul 28 22:34:22 <jinkoo>	sorry, went out for lunch
+Jul 28 22:34:25 <jinkoo>	only just got back
+Jul 28 22:35:31 <jinkoo>	the content I'm testing with currently can be found at https://udacityplus.appspot.com/api/articles/get
+Jul 28 22:35:41 <jinkoo>	that's a JSON wrapper around HTML
+Jul 28 22:56:43 	markup has quit (Quit: Leaving.)
+Jul 29 01:18:05 <jinkoo>	hmm, next version of U+ is almost ready
+Jul 29 02:51:33 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Jul 29 03:31:17 <jinkoo>	Really need to stop testing on the server...
+Jul 29 04:50:26 <zeffii>	testing what?
+Jul 29 05:03:58 <jinkoo>	app
+Jul 29 05:04:03 <jinkoo>	almost ready for the next commit
+Jul 29 05:04:20 <jinkoo>	I *think* it's stable. So many bugs... I thought it was stable 2 hours ago.
+Jul 29 05:32:02 <jinkoo>	Whew. Commit made. Anyone interested in testing it?
+Jul 29 05:46:44 <zeffii>	sure
+Jul 29 05:50:19 <jinkoo>	https://udacityplus.appspot.com/ for the script, https://github.com/nixhope/Udacity-Plus for the source
+Jul 29 05:55:17 	markup (~Adium@27.123.185.0) has joined ##udacitymagazine
+Jul 29 06:03:12 <zeffii>	oh i had made tweaks to your older version : https://dl.dropbox.com/u/3397495/protodidact/udacity/index.html
+Jul 29 06:06:04 <jinkoo>	cheers
+Jul 29 06:08:16 <jinkoo>	did you modify an CSS?
+Jul 29 06:10:58 <zeffii>	a little bit
+Jul 29 06:11:16 <zeffii>	https://dl.dropbox.com/u/3397495/protodidact/udacity/static/main.css
+Jul 29 06:11:38 <zeffii>	it's not a vast improvement, but it's a start
+Jul 29 06:11:46 <jinkoo>	cheers, I'll go over it tomorrow.
+Jul 29 06:12:28 <zeffii>	it's definitely a little softer on the eyes
+Jul 29 06:15:18 <zeffii>	but i did modify the html a lot
+Jul 29 06:15:49 <jinkoo>	bed time now though. I should try to sleep before midnight since tomorrow is a work day
+Jul 29 06:15:54 <jinkoo>	cheers all.
+Jul 29 06:16:02 <zeffii>	see you soon!
+Jul 29 06:18:24 <jinkoo>	need to get more traction on udacity magazine
+Jul 29 06:21:09 <zeffii>	we'll just build it, as it's mass increases things automatically get drawn to it
+Jul 29 06:21:19 <zeffii>	*its
+Jul 29 06:21:31 <jinkoo>	sleeeeep
+Jul 29 06:21:32 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Jul 29 06:37:12 	markup has quit (Quit: Leaving.)
