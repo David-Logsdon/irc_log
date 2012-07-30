@@ -1,0 +1,65 @@
+﻿**** BEGIN LOGGING AT Sun Jul 29 15:33:08 2012
+
+Jul 29 16:08:49 	zeffii has quit (Ping timeout: 255 seconds)
+Jul 29 16:24:23 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Jul 29 16:26:45 <jinkoo>	morning*
+Jul 29 16:27:04 <DavidLL>	good afternoon
+Jul 29 16:50:51 <DavidLL>	Are You at work yet?
+Jul 29 16:53:30 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Jul 29 16:53:45 <jinkoo>	yeah
+Jul 29 16:53:48 <jinkoo>	@work
+Jul 29 16:54:06 <DavidLL>	Then I wont disturb you
+Jul 29 16:54:53 <zeffii>	ive been experimenting more with jquery and markdown and code prettifier
+Jul 29 16:54:59 <zeffii>	http://zeffii.github.com/zen_cms/
+Jul 29 16:55:16 <zeffii>	(last three items)
+Jul 29 16:55:37 <zeffii>	or last 4, including On Markdown
+Jul 29 16:56:52 <DavidLL>	So You have implemented markdown?
+Jul 29 16:57:15 <zeffii>	yeah, i've tried a few libraries
+Jul 29 16:57:43 <zeffii>	would like to get mathjax running too
+Jul 29 16:57:49 <DavidLL>	cool we have decided to use markdown for the magazine
+Jul 29 16:58:40 <DavidLL>	at least markup jinkoo and I.
+Jul 29 16:58:50 <zeffii>	it's the only sane approach
+Jul 29 16:59:51 <DavidLL>	I don't like it but its safer
+Jul 29 17:00:25 <jinkoo>	yeah i don't like md much, but it offers consistency
+Jul 29 17:01:00 <DavidLL>	and the intended users are at least used to using it
+Jul 29 17:01:52 <zeffii>	plus, if people need to do stuff beyond md, it can always be linked to
+Jul 29 17:04:00 <jinkoo>	only problem with mathjax is that the udacity website uses it but doesn't ask the browser the cache the CDN
+Jul 29 17:06:02 <zeffii>	that's not an immediate concern is it?
+Jul 29 17:06:53 <zeffii>	..let's get some prototypes going and solve those issues either along the way ..or seperately
+Jul 29 17:07:00 <jinkoo>	it annoys me :p
+Jul 29 17:08:14 <jinkoo>	since U+ is set to load after the page content (waits for the video to load before modiying the DOM)
+Jul 29 17:08:30 <jinkoo>	but since mathjax takes for ever to load, it delays U+
+Jul 29 17:08:38 <jinkoo>	one day I'll find a way around it.
+Jul 29 17:10:39 <zeffii>	i've considered writing a paperscript.js addon for latex stuff
+Jul 29 17:11:12 <DavidLL>	there is a markdown addon for LaTeX
+Jul 29 17:11:55 <DavidLL>	https://github.com/justinvh/Markdown-LaTeX
+Jul 29 17:11:56 <zeffii>	which one?
+Jul 29 17:12:33 <jinkoo>	gravatar is another site that is annoying
+Jul 29 17:13:02 <zeffii>	i'm not sure everythong has to have a social network strapped onto it
+Jul 29 17:13:07 <zeffii>	thing
+Jul 29 17:16:33 <zeffii>	ahh,, as a python library that could be nice!
+Jul 29 17:17:15 <jinkoo>	people forget that social networks without people interaction don't really work.
+Jul 29 17:17:54 <zeffii>	a lot of socialbuzz is noise
+Jul 29 17:18:36 <DavidLL>	I agree but it will be fun to implement modular apps
+Jul 29 17:19:58 <DavidLL>	I have a facebook account and google+ too but I only use it to keep in touch with my family
+Jul 29 17:23:29 <jinkoo>	alright, stuff to do
+Jul 29 17:23:44 <jinkoo>	bye
+Jul 29 17:24:04 	jinkoo has quit (Quit: Page closed)
+Jul 29 17:25:56 <zeffii>	DavidLL, same here
+Jul 29 17:26:53 <zeffii>	as an early internet adopter it didn't grip me at all
+Jul 29 17:27:32 <zeffii>	the last really cool thing we had was ICQ
+Jul 29 17:27:42 <zeffii>	untill it got sold by mirabilis
+Jul 29 17:41:41 <DavidLL>	I pushed an adaptation of my blog code to my fork of the magazine repo. It's not functional yet but getting close. still working out bugs and still some things to modify.
+Jul 29 18:06:25 	zeffii has quit (Quit: Leaving)
+Jul 30 02:31:40 	jinkoo (7962d571@gateway/web/freenode/ip.121.98.213.113) has joined ##udacitymagazine
+Jul 30 02:52:43 	markup (~Adium@183.81.142.176) has joined ##udacitymagazine
+Jul 30 03:05:57 	markup has quit (Quit: Leaving.)
+Jul 30 05:54:34 	markup (~Adium@183.81.142.176) has joined ##udacitymagazine
+Jul 30 06:01:59 <jinkoo>	DavidLL: you should include a license file with your work
+Jul 30 06:02:16 <jinkoo>	and also Udacians needs to upload a license to Udacians/magazine
+Jul 30 06:03:20 <jinkoo>	I added some of the very basic things we discussed here to the spec in the wiki. Currently doing CS262 so that will keep me busy until the weekend
+Jul 30 06:52:33 	markup has quit (Quit: Leaving.)
+Jul 30 06:54:05 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Jul 30 07:40:31 	jinkoo has quit (Quit: Page closed)
+Jul 30 14:26:29 	zeffii has quit (Read error: Connection reset by peer)
+Jul 30 19:45:32 	markup (~Adium@183.81.136.140) has joined ##udacitymagazine
