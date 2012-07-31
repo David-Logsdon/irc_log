@@ -1,0 +1,114 @@
+﻿**** BEGIN LOGGING AT Mon Jul 30 19:57:16 2012
+
+Jul 30 20:54:12 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Jul 30 20:55:38 <jinkoo>	markup: DavidLL: all work on this project needs to be covered by a license (preferably not GPL) that needs to go into the main udacians/magazine folder and any forks need to use a compatible license
+Jul 30 21:00:07 <markup>	agreed. what do you have against the GPL? I'm not sure I want to contribute under any other license.
+Jul 30 21:02:51 <markup>	brb
+Jul 30 21:14:16 <jinkoo>	Well, why don't we discuss the criteria we want from a license and our own preferences.
+Jul 30 21:23:58 <markup>	I'd like everyone to be free to use any code i submit, so long as they keep the license intact. This fosters learning, which is the basis of everything we're trying to accomplish. If I give John Doe my knowledge (code), and he builds on my knowledge (producing more/better code), I'd like him to share that knowledge with me and everyone else in the world.
+Jul 30 21:28:32 <jinkoo>	I don't like restricting what use people can make of the work, so I normally go with non-share-alike (aka copyleft).
+Jul 30 21:28:55 <jinkoo>	I'm also happy for my code to be used for commercial purposes.
+Jul 30 21:29:35 <jinkoo>	So I tend to vary between CC0 and the various Expat/MIT/BSD(3)/ISC licenses, which are all very similar.
+Jul 30 21:30:05 <jinkoo>	Hmm, that sentence has a bit of ambiguity in it, but should be decipherable.
+Jul 30 21:31:33 <markup>	The GPL does not restrict commercial use in any way whatsoever.
+Jul 30 21:33:29 <jinkoo>	I was just going over the basic criteria
+Jul 30 21:33:32 <jinkoo>	GPL is copyleft
+Jul 30 21:34:05 <jinkoo>	What about CCSA (http://creativecommons.org/licenses/by-sa/3.0/) alike?
+Jul 30 21:34:30 <markup>	CC licenses aren't good for code.
+Jul 30 21:35:41 <markup>	The CC organisation itself recommends against using CC licenses for software.
+Jul 30 21:35:51 <markup>	http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F
+Jul 30 21:36:18 <jinkoo>	not in terms of releasing under it, but what do you think of the general clauses?
+Jul 30 21:37:07 <markup>	The general clauses match the GPL license -exactly-
+Jul 30 21:38:23 <markup>	IANAL :P
+Jul 30 21:38:33 <jinkoo>	I'm happy working under it. But as I sait, would rather work under something that doesn't enforce copyleft.
+Jul 30 21:43:12 	markup has quit (Ping timeout: 260 seconds)
+Jul 30 21:43:52 <jinkoo>	fine then
+Jul 30 21:57:39 	markup (~Adium@183.81.137.151) has joined ##udacitymagazine
+Jul 30 21:58:00 <markup>	Sorry, got disconnected
+Jul 30 22:01:45 <markup>	I'm not quite sure i understand. The CC license you linked to and presumably favoured enforces the same restriction as the GPL. It too is a copyleft license.
+Jul 30 22:05:01 <markup>	What do you think about Apache 2? We could/should stick with that, since our work is a derivative work of webapp2, which is distributed under that license.
+Jul 30 22:07:31 <markup>	I believe Apache 2.0 fits what you've said you'd prefer.
+Jul 30 22:07:31 <markup>	http://stackoverflow.com/questions/2982364/how-does-apache-2-0-license-differ-from-gpl
+Jul 30 22:07:56 <markup>	@DavidLL Any thoughts?
+Jul 30 22:27:08 <jinkoo>	The reason I don't like copyleft, and don't think it's always appropriate, is that a lot of people (e.g. Udacity students) might want to download some code, tinker with it and run it somewhere for a pet project without providing the source. If they read and respect the license they can't do that, and if they ignore the license then they shouldn't do that. Permissive licenses can be GPL compatible and don't restrict that.
+Jul 30 22:27:36 <jinkoo>	markup: by linking the CCSA I was trying to ask if those were the basic principles you wanted in a license
+Jul 30 22:28:13 <jinkoo>	apache is good (all the permissive licenses are very similar).
+Jul 30 22:28:18 <markup>	Ahhh, I see what the problem is.
+Jul 30 22:29:44 <markup>	This is a common misconception. Under the GPL, any student would be free to use the code on any project they chose. I would be doing the same. I use GPL code every day in my commercial projects. The GPL does not restrict such use.
+Jul 30 22:30:06 <jinkoo>	It requires that the code be released under a compatible license.
+Jul 30 22:30:13 <jinkoo>	*derivative code
+Jul 30 22:30:24 <markup>	Yes released, but not used.
+Jul 30 22:31:11 <markup>	Eg. If I submit some GPL licensed code that you liked, you would be free to use that in your pet project with no requirement whatsoever about ever sharing your code with me or anyone else.
+Jul 30 22:32:20 <jinkoo>	then it's not copyleft
+Jul 30 22:32:21 <markup>	If however you did want to share you derivative code… put it in your own public github account for example, you would have to license all that derivative code under the same GPL license I used.
+Jul 30 22:32:33 <markup>	It is copyleft.
+Jul 30 22:32:57 <markup>	You are equating use with distribution.
+Jul 30 22:33:33 <markup>	Joomla, Wordpress, Drupal for example are all GPL licensed.. I have that software running on about 40 websites on my server… but i will never release my code, and i am not obliged to.
+Jul 30 22:34:05 <jinkoo>	but if you did release the code you would be forced to use a compatible license for the whole code.
+Jul 30 22:34:15 <jinkoo>	not just the parts that are GPL
+Jul 30 22:34:16 <markup>	yup.
+Jul 30 22:34:34 <jinkoo>	yes, and that's what I don't agree with.
+Jul 30 22:34:34 <markup>	which is only fair
+Jul 30 22:34:36 <jinkoo>	:)
+Jul 30 22:35:13 <markup>	You'd like to use my code in your derivative work, but not share your work with me?
+Jul 30 22:35:45 <markup>	I'm not sure that fits with the spirit of learning and sharing that this udacity project is about
+Jul 30 22:36:08 <jinkoo>	what about a compromise? Weakly copyleft?
+Jul 30 22:36:28 <jinkoo>	my personal view is that I want you to do whatever you want to do with my code.
+Jul 30 22:37:02 <markup>	Then you are a better man than I :)
+Jul 30 22:37:15 <jinkoo>	I suppose I morally object to passing it off as your own for academic purposes (since that is cheating).
+Jul 30 22:37:28 <markup>	I am selfish. I share, you share.
+Jul 30 22:38:08 <jinkoo>	but plagiarism's governed by other rules and if people are willing to circumvent those then my license isn't going to make a damn
+Jul 30 22:38:15 <markup>	OK I'll give in… let's go with the Apache 2 license, which aligns perfectly with what you want.
+Jul 30 22:38:28 <jinkoo>	compromise
+Jul 30 22:38:33 <jinkoo>	Mozilla license, weakly copyleft
+Jul 30 22:39:33 <jinkoo>	also, everyone has to agree to the license, not just us :)
+Jul 30 22:43:18 <markup>	Well, it's been over a week and nobody else has turned up… that leaves about 4 of us. We can't dilly-dally. If you and I can agree on a license now, that just leaves one more to agree.
+Jul 30 22:48:44 <markup>	I'm for Apache 2.
+Jul 30 22:51:22 <jinkoo>	alrighty.
+Jul 30 22:52:04 <jinkoo>	I've never used it since I like brevity in licenses :). I'm happy with it.
+Jul 30 22:52:49 <markup>	It's the default license in GAE apps :P
+Jul 30 22:53:54 <markup>	http://www.mashape.com/
+Jul 30 23:00:28 <jinkoo>	interesting
+Jul 30 23:20:59 	jinkoo has quit (Quit: Page closed)
+Jul 31 00:02:14 <markup>	What do you guys think of this skeleton:
+Jul 31 00:02:14 <markup>	https://github.com/mark-up/magazine/tree/master/udacious
+Jul 31 00:07:49 	markup has quit (Quit: Leaving.)
+Jul 31 00:12:47 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Jul 31 02:03:36 	jinkoo has quit (Quit: Page closed)
+Jul 31 02:16:22 	markup (~Adium@27.123.184.242) has joined ##udacitymagazine
+Jul 31 03:00:10 	jinkoo (7962d571@gateway/web/freenode/ip.121.98.213.113) has joined ##udacitymagazine
+Jul 31 03:06:54 	jinkoo has quit (Quit: Page closed)
+Jul 31 07:00:21 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Jul 31 07:15:37 <markup>	hey zeffii
+Jul 31 07:15:49 <zeffii>	yo!
+Jul 31 07:21:31 	markbot (~markbot@27.123.184.242) has joined ##udacitymagazine
+Jul 31 07:21:58 <markup>	woohoo, my first irc bot
+Jul 31 07:22:23 	markbot has quit (Remote host closed the connection)
+Jul 31 07:23:02 <zeffii>	: )
+Jul 31 07:23:20 	markdown (~markdown@27.123.184.242) has joined ##udacitymagazine
+Jul 31 07:23:31 <zeffii>	does it log on when it 'feels like it' ?
+Jul 31 07:24:00 <markup>	lol
+Jul 31 07:24:45 <markup>	no idea what it does. just a skeleton of a bot from r/learnprogramming
+Jul 31 07:26:03 <markup>	Will try and make it log everything and push to a public website every 5mins
+Jul 31 07:26:10 <markup>	https://github.com/LearnProgramming/LPMCBot
+Jul 31 07:29:16 <markup>	BTW, any thoughts on this structure? https://github.com/mark-up/magazine
+Jul 31 07:30:52 <zeffii>	lemme fire up a box
+Jul 31 07:32:07 <markup>	If you mean GAE, it won't run… it's just some copypasted code that we would build on, Doesn't currently run
+Jul 31 07:35:26 <zeffii>	looks cool
+Jul 31 07:40:37 <markup>	thanks for checking it out
+Jul 31 07:40:40 <zeffii>	getting mathjax to integrate with markdown nicely has proven a little tricky
+Jul 31 07:40:57 <markup>	mathjax?
+Jul 31 07:40:59 <zeffii>	might be beyond my fumbling abilities
+Jul 31 07:41:18 <markup>	hmm, looks nice
+Jul 31 07:42:33 <markup>	BTW jinkoo and I had a discussion about the license earlier.
+Jul 31 07:43:58 <markup>	He preferred a fully permissive license, I preferred GPL. We settled on Apache 2.0. Do you have a preference?
+Jul 31 07:46:48 <zeffii>	i thin apache is about as free as it gets
+Jul 31 07:47:20 <markup>	Do you oppose using it?
+Jul 31 07:47:33 <zeffii>	certainly not
+Jul 31 07:48:28 <markup>	Glad to hear that.
+Jul 31 08:04:03 	markup has quit (Ping timeout: 252 seconds)
+Jul 31 08:04:30 	markup (~Adium@183.81.139.32) has joined ##udacitymagazine
+Jul 31 08:04:55 	markdown has quit (Ping timeout: 240 seconds)
+Jul 31 08:33:18 	markup has quit (Quit: Leaving.)
+**** ENDING LOGGING AT Tue Jul 31 16:06:50 2012
+
