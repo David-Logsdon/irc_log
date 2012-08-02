@@ -1,0 +1,351 @@
+﻿**** BEGIN LOGGING AT Tue Jul 31 16:08:21 2012
+
+Jul 31 16:26:31 	jinkoo (7962d571@gateway/web/freenode/ip.121.98.213.113) has joined ##udacitymagazine
+Jul 31 16:39:15 	jinkoo has quit (Quit: Page closed)
+Jul 31 18:31:45 	zeffii has quit (Ping timeout: 248 seconds)
+Jul 31 20:26:38 	markup (~Adium@183.81.139.31) has joined ##udacitymagazine
+Jul 31 20:26:53 <markup>	Hey David
+Jul 31 21:05:51 	markup has quit (Quit: Leaving.)
+Jul 31 21:39:54 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Aug 01 00:07:49 	Abbot (~Abbot@it257468.fog.auckland.ac.nz) has joined ##udacitymagazine
+Aug 01 00:08:01 <jinkoo>	ho, the old bot is up and running
+Aug 01 00:13:23 <jinkoo>	Abbot: hello bot
+Aug 01 00:15:21 	Abbot has quit (Read error: Connection reset by peer)
+Aug 01 00:15:35 	Abbot (~Abbot@it257468.fog.auckland.ac.nz) has joined ##udacitymagazine
+Aug 01 00:17:22 	Abbot has quit (Read error: Connection reset by peer)
+Aug 01 00:23:40 	Abbot (~Abbot@it257468.fog.auckland.ac.nz) has joined ##udacitymagazine
+Aug 01 00:25:30 	Abbot2 (~Abbot2@it257468.fog.auckland.ac.nz) has joined ##udacitymagazine
+Aug 01 00:26:27 	Abbot2 has quit (Read error: Connection reset by peer)
+Aug 01 00:28:11 	Abbot has quit (Ping timeout: 255 seconds)
+Aug 01 01:01:15 	Abbot (~Abbot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 01 01:02:33 <jinkoo>	Ok, Abbot is now going to log this channel. Logs can be found at http://ds-ex.codemonki.es/resources/2012Aug (i.e. year, month).
+Aug 01 01:02:45 <jinkoo>	Hopefully I will get an email when the bot dies
+Aug 01 01:04:00 <jinkoo>	we'll see how it goes. Maybe one day Anthony will come back and we can change the topic.
+Aug 01 01:05:01 	jinkoo has quit (Quit: Page closed)
+Aug 01 02:01:39 	jinkoo (~jinkoo@121.98.213.113) has joined ##udacitymagazine
+Aug 01 04:43:45 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Aug 01 05:14:41 	markup (~Adium@183.81.142.249) has joined ##udacitymagazine
+Aug 01 05:21:57 	markup has quit (Quit: Leaving.)
+Aug 01 06:39:43 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 01 15:23:29 	jinkoo (~jinkoo@121.98.213.113) has joined ##udacitymagazine
+Aug 01 15:25:56 	Abbot has quit (Remote host closed the connection)
+Aug 01 15:26:08 	Abbot (~Abbot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 01 15:35:24 	Abbot has quit (Remote host closed the connection)
+Aug 01 15:36:34 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Aug 01 15:37:27 	Abbot (~Abbot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 01 16:45:44 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Aug 01 16:52:15 	Abbot has quit (Remote host closed the connection)
+Aug 01 17:12:14 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 01 17:13:04 	jinkoo has quit (Quit: Page closed)
+Aug 01 17:35:43 	zeffii has quit (Quit: Leaving)
+Aug 01 18:11:45 	markup (~Adium@27.123.185.173) has joined ##udacitymagazine
+Aug 01 18:24:59 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Aug 01 18:32:13 <jinkoo>	markup: yo
+Aug 01 18:32:26 <markup>	heya!
+Aug 01 18:32:39 <markup>	How you doing, jinkoo?
+Aug 01 18:32:49 <jinkoo>	AbbotBot is logging the channel automatically to http://ds-ex.codemonki.es/resources/2012Aug.txt
+Aug 01 18:33:06 <jinkoo>	it also sends me an email if it crashes
+Aug 01 18:33:20 <jinkoo>	I'm doing ok, kinda busy
+Aug 01 18:33:23 <jinkoo>	you?
+Aug 01 18:33:23 <markup>	nice
+Aug 01 18:33:29 <markup>	Is this your bot?
+Aug 01 18:33:35 <jinkoo>	yeah
+Aug 01 18:33:44 <markup>	Care to share source?
+Aug 01 18:33:46 <jinkoo>	and my server
+Aug 01 18:33:55 <jinkoo>	source is messy :)
+Aug 01 18:34:20 <markup>	Can't be worse than anything i've written :P
+Aug 01 18:34:24 <jinkoo>	since this was a quick hack to get it running
+Aug 01 18:34:33 <markup>	Awesome domain btw
+Aug 01 18:34:46 <jinkoo>	ok, let me just remove the personal identification stuff (i.e. email passwords)
+Aug 01 18:35:47 <jinkoo>	yeah a friend owns www.codemonki.es
+Aug 01 18:36:42 <markup>	where are you hosting?
+Aug 01 18:38:47 <jinkoo>	on a VPS
+Aug 01 18:41:37 <jinkoo>	source http://ds-ex.codemonki.es/pastebin/3261621632
+Aug 01 18:42:00 <jinkoo>	really need to work on that pastebin
+Aug 01 18:42:22 <jinkoo>	but that would be digging up poorly structured source code
+Aug 01 18:44:21 <jinkoo>	also, that's not a particularly good way to structure an irc bot.
+Aug 01 18:44:34 <markup>	thanks for sharing
+Aug 01 18:44:54 <jinkoo>	it logs joins/leaves/quits and messages and responds to the server PONGs to prevent timeout
+Aug 01 18:45:49 <jinkoo>	there's a C# irc client that I use on github, which is a better example of IRC functionality (still not spec-compliant). It has lots of bugs and quirks though.
+Aug 01 18:47:19 <markup>	Took a basic C# class 10yrs ago. Never touched it or programming again… until Udacity
+Aug 01 18:48:07 <jinkoo>	I quite like C#
+Aug 01 18:50:55 <jinkoo>	ugh, I was messing around in the twitter API yesterday. Finally gave up and downloaded a wrapper library T9weepy)
+Aug 01 18:51:00 <jinkoo>	*(tweepy)
+Aug 01 18:51:26 <markup>	what were you trying to do with the api?
+Aug 01 18:52:48 <jinkoo>	get AbbotBot to tweet/email it's status
+Aug 01 18:53:00 <markup>	ok
+Aug 01 18:53:21 <markup>	Have you ever worked with the requests lib?
+Aug 01 18:53:40 <jinkoo>	I was struggling with the oauth
+Aug 01 18:53:48 <jinkoo>	which tokens to send where at what prompt.
+Aug 01 18:54:09 <jinkoo>	since I wanted a quick hack rather than a well-structured interface
+Aug 01 19:28:40 <jinkoo>	either of you tried a Lisp dialect?
+Aug 01 19:31:55 <markup>	not me. i'm a beginner through and trhough. Started with cs101.
+Aug 01 19:32:32 <markup>	Don't want to learn any other language until i have a firm grasp of python… long way to go.
+Aug 01 19:38:20 <jinkoo>	I want to try a variety of languages before getting too deeply into one
+Aug 01 19:40:18 <markup>	I suppose that's better in the long term
+Aug 01 19:40:31 <jinkoo>	although lately I've been too impatient for results to really give other languages a chance
+Aug 01 19:40:46 <jinkoo>	so I just go back to python
+Aug 01 19:41:42 <markup>	My interest is web development, so I had to choose between python, ruby, and php for backend dev (I know there are others but these three have been overwhelmingly favoured by web devs).
+Aug 01 19:42:12 <jinkoo>	if there were udacity courses in other languages I'd totally do those :) (unless they were in one of the languages I don't like)
+Aug 01 19:42:23 <jinkoo>	ugh php
+Aug 01 19:42:36 <markup>	lol
+Aug 01 19:43:08 <jinkoo>	you can get quite far with Java for backends, the resources and community exist
+Aug 01 19:43:32 <markup>	if you use a modern framework like kohana or symphony, php isn't bad.
+Aug 01 19:44:08 <jinkoo>	I'm not fond of the syntax
+Aug 01 19:45:38 <markup>	I've never progammed with it… just copypasta theme development for CMS's… joomla, wp, magento
+Aug 01 19:45:48 <markup>	i didn't mind the syntax until i met python :P
+Aug 01 19:46:06 <markup>	now i puke a little in my mouth when i see php
+Aug 01 19:46:37 <markup>	#elitistdouchebagcommentoftheday
+Aug 01 19:46:41 <DavidLL>	markup, stop you are making me hungry
+Aug 01 19:46:50 <markup>	lol
+Aug 01 19:46:52 <jinkoo>	hungry for phpburger
+Aug 01 19:47:06 <DavidLL>	cool a bot!
+Aug 01 19:47:16 <markup>	Hi David
+Aug 01 19:47:23 <DavidLL>	hi mark
+Aug 01 19:48:05 <markup>	I don't believe you've commented on the license
+Aug 01 19:48:08 <markup>	any thoughts
+Aug 01 19:48:19 <DavidLL>	I have been getting overtime and haven't had much time to work on anything
+Aug 01 19:48:35 <DavidLL>	hang on reading the logs
+Aug 01 19:50:52 <DavidLL>	Apache 2 is fine
+Aug 01 19:51:20 <DavidLL>	jinkoo, no lisp here have you?
+Aug 01 19:52:38 <DavidLL>	markup, I love c# asp.net with the MVC model for web dev.
+Aug 01 19:52:39 <jinkoo>	I keep wanting to learn
+Aug 01 19:53:04 <jinkoo>	but as mentioned above, keep wanting to write actual code instead of learn and so go back to python. Or sometimes Java.
+Aug 01 19:53:05 <DavidLL>	How long has the bot been running?
+Aug 01 19:53:31 <jinkoo>	5am 1 August UTC
+Aug 01 19:53:46 <DavidLL>	No problems yet?
+Aug 01 19:54:20 <jinkoo>	occasional downtime during development (adding features) but nothing happened during those (yesterday was really quiet)
+Aug 01 19:54:25 <jinkoo>	none so far
+Aug 01 19:55:18 <DavidLL>	Cool maybe I can stop logging the channel. but I will still keep logging till we are sure
+Aug 01 19:55:22 <jinkoo>	there's no reconnect functionality yet so it may timeout at some point
+Aug 01 19:56:04 <jinkoo>	also, not sure if a monthly textfile is ideal
+Aug 01 19:56:09 <jinkoo>	does that work for people?
+Aug 01 19:56:33 <jinkoo>	if someone else wants to host a bot as well, we can get better coverage
+Aug 01 19:56:45 <DavidLL>	I thought it was realtime uploading to your server.
+Aug 01 19:57:40 <jinkoo>	it is realtime uploading to the server
+Aug 01 19:57:53 <jinkoo>	if you look at the code you'll see it creates a new file every month
+Aug 01 19:57:59 <jinkoo>	2012Aug.txt right now
+Aug 01 19:58:11 <jinkoo>	2012Sep.txt next month (UTC+1200)
+Aug 01 20:00:15 <DavidLL>	LOL except pass
+Aug 01 20:00:57 <markup>	Guys, do you have a preference for where the user submits content to with the website?
+Aug 01 20:01:58 <markup>	articles/add, articles/foo-bar-article/edit  or a separate admin section of the website /admin/add /admin/edit
+Aug 01 20:02:07 <markup>	typo
+Aug 01 20:02:41 <jinkoo>	why not a dashboard for logged in users?
+Aug 01 20:02:52 <jinkoo>	submit from there
+Aug 01 20:02:53 <markup>	thats what i meant by the second option
+Aug 01 20:03:34 <jinkoo>	depending how deeply down the ajax rabbit hole you want to go, URIs may become irrelevant
+Aug 01 20:03:43 <markup>	already regretting not having a spec LOL, this sort of question will come up again and again without a spec :D
+Aug 01 20:04:02 <DavidLL>	As far as users go why not new-article? but approbal should be admin/approve or something like that.
+Aug 01 20:04:45 <DavidLL>	LOL hillbilly edu strikes again
+Aug 01 20:05:22 <markup>	@David, it needs to be consistent, hence "add". article/add user/add comment/add
+Aug 01 20:06:08 <DavidLL>	What we need the most is splitting of tasks. And spec's wouldn't hurt
+Aug 01 20:06:12 <jinkoo>	AJAX :p
+Aug 01 20:06:41 <jinkoo>	there's nothing stopping you from going and adding stuff to the spec :)
+Aug 01 20:07:07 <markup>	@David only reason we dont have a spec is that nobody is volunteering to write one, me included :P
+Aug 01 20:07:15 <DavidLL>	comment should be on the server only and ajaked to the user
+Aug 01 20:09:28 <markup>	Good idea to ajaxify the comments. An advantage of having comments be a separate app is that comment threads will be used in two places. WHen an article is posted, it has a comment form under it.. the comment form has an id. At the same time, the article is automatically posted to the "timeline" in the social network part of the site… users can comment there as well, and it will be the same comment thread as is at the end of the article.
+Aug 01 20:10:09 <markup>	"comment form has an id"  should be "comment thread has an id"
+Aug 01 20:10:53 <jinkoo>	no disqus?
+Aug 01 20:11:42 <jinkoo>	awesome, I broke the Udacity wiki http://www.udacity.com/wiki/w/history?page=magazine
+Aug 01 20:12:02 <markup>	I originally favoured disqus (for one it will cost nothing and save us the cost that heavy comment use will bring on GAE) … but what use is a social network without its own comments.
+Aug 01 20:12:35 <markup>	Will be fun to build comments, and if we fail, switching to disqus is as easy as copypasting some code
+Aug 01 20:12:37 <DavidLL>	I haven't had time to look into disqus. And I won't if the job remains behind schedule.
+Aug 01 20:13:05 <markup>	@David, I've committed the outline of the app to the https://github.com/udacians/magazine
+Aug 01 20:13:20 <DavidLL>	I saw that
+Aug 01 20:13:27 <markup>	I left the model out.. do you want to put your articles model in?
+Aug 01 20:14:14 <DavidLL>	Still working out details on the model I changed it a lot.
+Aug 01 20:14:42 <markup>	Have the code I committed is broken… please commit yours.. we can work on it together
+Aug 01 20:14:46 <markup>	half
+Aug 01 20:15:26 <DavidLL>	Fork mine, change anything you want
+Aug 01 20:16:27 <DavidLL>	It's not ready for a pull request yet
+Aug 01 20:17:00 <markup>	I don't want to litter the code with credits #Davids code, #jinkoo did this. Better if you commit yourself so we can track who wrote what with git.
+Aug 01 20:17:34 <DavidLL>	I have run up against a problem on using ndb (still learning) :)
+Aug 01 20:17:50 <markup>	yeah?
+Aug 01 20:18:40 <DavidLL>	The key to the id is still to be read again if I have time.
+Aug 01 20:20:04 <markup>	Note that there are two places for utils. If the code will be reused is other apps, put it in /lib/utils.py otherwise, it should go in /apps/<app_name>/utils.py
+Aug 01 20:20:17 <jinkoo>	can we start with datastore? I don't think it's a great idea to have everyone learning as they go...
+Aug 01 20:21:20 <DavidLL>	I have to go to work now see you later. jinkoo  yes we can do anything (no specs)
+Aug 01 20:21:28 <markup>	LMAO
+Aug 01 20:21:44 <markup>	coming back to bite us in the arse, again and again.
+Aug 01 20:22:51 <markup>	Most of the code for ndb is identical to db. All it takes is adding or taking away a character (n). I don't think that's much for users to learn.
+Aug 01 20:23:30 <markup>	There are only one or two cases where the code will be different for having used ndb instead of db.
+Aug 01 20:24:04 <markup>	db will be deprecated eventually, and no new project should be written with db IMO
+Aug 01 20:24:22 <jinkoo>	markup: bcrypt needs a license
+Aug 01 20:25:12 <jinkoo>	or is that an implementation you wrote?
+Aug 01 20:25:28 <markup>	oh bugger, thought it was in the file comments
+Aug 01 20:25:32 <markup>	bugger
+Aug 01 20:25:56 <markup>	hahhaha @me writing bcrypt code
+Aug 01 20:26:51 <markup>	it doesnt hae a license on the site, probably why i never added on
+Aug 01 20:26:53 <markup>	one
+Aug 01 20:26:58 <markup>	https://github.com/erlichmen/py-bcrypt
+Aug 01 20:27:13 <markup>	py-bcrypt is licensed under a ISC/BSD licence. The underlying Blowfish and hashing code implementation is taken from OpenBSD's libc and is subject to a 4-term BSD license. See the LICENSE file for details.
+Aug 01 20:28:16 <jinkoo>	copy the readme
+Aug 01 20:29:51 <jinkoo>	actually, I'd take the comment from blowfish.py and adding that as a separate file
+Aug 01 20:31:21 <markup>	Feel free to commit those changes.
+Aug 01 20:31:30 <markup>	Else i'll do so in a few hours.
+Aug 01 20:31:46 <jinkoo>	can't from where I am.
+Aug 01 20:31:53 <markup>	oh ok
+Aug 01 20:33:13 <jinkoo>	added some brief spec notes to the wiki
+Aug 01 20:33:36 <jinkoo>	 /articles/new will be better for modular design
+Aug 01 20:37:05 <markup>	Aren't verbs better?
+Aug 01 20:37:13 <markup>	add, edit, delete
+Aug 01 20:37:30 <markup>	API's are better when consistent verbs are used
+Aug 01 20:38:31 <markup>	saves people having to figure out what api endpoint to use. articles/add /articles/edit users/add users/edit comments/add comments/delete
+Aug 01 20:39:00 <markup>	Not an expert, just what i've observed out in the wild
+Aug 01 20:39:58 <markup>	note that this would just be the api endpoints. If using ajax, the actual url that the user sees could be anything… /new-article, /new, etc
+Aug 01 20:40:19 <jinkoo>	ajax depends on how comfortable developers are in using it
+Aug 01 20:40:34 <jinkoo>	a good user experience requires pretty complex ajax
+Aug 01 20:40:56 <markup>	well the ajax would be progressive enhancement. It should all work with javascript completely disabled.
+Aug 01 20:48:39 <jinkoo>	spec updated
+Aug 01 20:48:52 <jinkoo>	I guess I have now volunteered to do that...
+Aug 01 20:59:34 <markup>	:D thanks, you rock
+Aug 01 21:22:56 <jinkoo>	DavidLL: markup: tabs or spaces? 4 spaces is python standard.
+Aug 01 21:24:39 <markup>	spaces
+Aug 01 21:24:45 <markup>	Have i used tabs somewhere?
+Aug 01 21:25:07 <jinkoo>	just checking for preferences
+Aug 01 21:25:15 <jinkoo>	I recently migrated from tabs to 4-space indentation
+Aug 01 21:26:03 <markup>	I've always used tabs for html and css. switching over to spaces as i adjust to python
+Aug 01 21:43:25 <jinkoo>	ok guys, fleshed out the spec quite a bit more. Hope you can work with it
+Aug 01 21:51:06 <jinkoo>	urgh, fixed the markdown
+Aug 01 22:00:01 <markup>	Thanks, good work
+Aug 01 22:00:29 <markup>	Can we discuss some of it?
+Aug 01 22:00:39 <jinkoo>	sure if you want.
+Aug 01 22:00:53 <jinkoo>	I just have to go do something right now but will respond when I get back
+Aug 01 22:00:56 <markup>	What is the blog section for?
+Aug 01 22:01:28 <jinkoo>	why not have a blog?
+Aug 01 22:01:32 <markup>	ok, no worries… i'll just raise some points and you or anyone else can respond when you can
+Aug 01 22:01:35 <jinkoo>	we can post updates from the team
+Aug 01 22:01:49 <jinkoo>	and will give us a chance to see how the modular design goes
+Aug 01 22:03:28 <markup>	ok cool. Thought you wanted to give every user a blog, and I figure it would be better to just have articles with user-submitted, editor-approved content.. to ensure the content is high quality.
+Aug 01 22:03:52 <markup>	ok so the blog is for the dev and editor team, right?
+Aug 01 22:05:30 <markup>	Next point: /articles/permalink/FOO [permalink]  <== Can we change that to articles/FOO please?
+Aug 01 22:06:24 <markup>	Basically, use this:    r'/articles/<slug:[-\w]+>'
+Aug 01 22:07:49 <markup>	brb
+Aug 01 22:12:27 <jinkoo>	yes, blog is for the team. So when we build the next facebook we can share fun and amusing snippets with our adoring/hate-filled audience.
+Aug 01 22:13:42 <jinkoo>	the one thing I don't like about using articles/FOO is that then it clashes with articles/add, articles/edit (i.e. same namespace, even if the regex handles them differently). But practically speaking articles/FOO is fine
+Aug 01 22:29:07 <jinkoo>	anyway, I have to go out for a few hours. Will read further comments from the logs when I get back.
+Aug 01 22:29:10 	jinkoo has quit (Quit: Page closed)
+Aug 01 22:50:47 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Aug 01 23:46:32 	markup has quit (Quit: Leaving.)
+Aug 02 01:53:40 	darksentinel (~ds@121.98.213.113) has joined ##udacitymagazine
+Aug 02 01:54:24 <darksentinel>	and back
+Aug 02 04:36:48 	markup (~Adium@183.81.136.16) has joined ##udacitymagazine
+Aug 02 04:50:52 <darksentinel>	welcome back
+Aug 02 04:52:59 <darksentinel>	DavidLL: markup: I have an idea for a title for this project
+Aug 02 04:53:10 <darksentinel>	huh, tab completion kind of works
+Aug 02 05:18:09 -christel-	[Global Notice] Hi all, it would appear that we're splitting at the seams today -- we're investigating and hopefully we'll manage to duct tape stuff back together (and locate the missing services!) -- apologies for the inconvenience, etc etc. 
+Aug 02 05:22:44 <markup>	back now
+Aug 02 05:23:37 <markup>	let me read the logs
+Aug 02 05:24:10 <markup>	ok, i missed nothing
+Aug 02 05:24:32 <markup>	what's the idea. Udacious and "Magazine" both suck
+Aug 02 05:27:11 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Aug 02 05:31:32 <darksentinel>	Eh, just call it Udacious!
+Aug 02 05:31:43 <darksentinel>	or Udacity! :P
+Aug 02 05:32:18 <darksentinel>	also, I think that I will change the way the irc logs work.
+Aug 02 05:36:31 <markup>	So where's your big idea? :D
+Aug 02 05:36:38 <markup>	> I have an idea for a title for this project
+Aug 02 05:36:39 <darksentinel>	Just call it Udacious!
+Aug 02 05:36:43 <markup>	ahh
+Aug 02 05:36:58 <markup>	I'm down with that. Its more than a magazine now
+Aug 02 05:37:01 <darksentinel>	it's _an_ idea, not particularly big
+Aug 02 05:37:24 <darksentinel>	and I disliked the "magazine" part of it... it isn't a tabloid
+Aug 02 05:38:09 <markup>	I actually called it that in the repo
+Aug 02 05:38:13 <markup>	https://github.com/mark-up/magazine/tree/master/udacious
+Aug 02 05:38:29 <darksentinel>	Udacious! integrates it with udacity, should be good for SEO and is ambiguous that it can be used for anything we come up with
+Aug 02 05:38:32 <darksentinel>	indeed you did
+Aug 02 05:38:38 <markup>	We can ask Anthony to change it when he gets here
+Aug 02 05:39:04 <darksentinel>	i'll change it on the wiki, although will keep the wiki URL the same
+Aug 02 05:39:05 <markup>	@logs definitely remove the channel name from the beginning of every entry
+Aug 02 05:40:06 <darksentinel>	you reckon? ok, can do. Definitely agree it will read better.
+Aug 02 05:40:18 <darksentinel>	Removes some of the genericness of the bot though :)
+Aug 02 05:50:03 <markup>	:)
+Aug 02 05:51:07 <markup>	Will try and do some project work later this evening… might have 2hrs. Will either write code or do some UI design
+Aug 02 05:51:28 <darksentinel>	It's almost bedtime and I have a note-taking project to write.
+Aug 02 05:51:40 <darksentinel>	Will make the logs more user friendly and currently rewriting the wiki entry.
+Aug 02 05:53:04 <markup>	forgot to mention… agree with your point about the URI paths and namespacing.
+Aug 02 05:54:31 <markup>	Need to give it more thought.
+Aug 02 05:55:28 <darksentinel>	alternative is /blog/YYYY/MM/post-title
+Aug 02 05:55:53 <darksentinel>	that way /blog/new and /blog/\d+ don't conflict
+Aug 02 06:00:29 <darksentinel>	ok, rewrote the wiki and added dependancies section
+Aug 02 06:01:40 <markup>	The shorter the urls the better, and having the dates in there is unnecessary and not optimal for seo. It isn't important information. best to have a clean url example.com/articles/flask-vs-django-a-comparison example.com/blog/new-feature-release-commenting-now-ajaxified
+Aug 02 06:03:43 <markup>	> that way /blog/new and /blog/\d+ don't conflict
+Aug 02 06:03:44 <markup>	This won't be a problem… it's just a matter of putting the catchall last in the list of Routes
+Aug 02 06:03:49 <markup>	r'/articles/<slug:[-\w]+>'
+Aug 02 06:04:04 <darksentinel>	I do get that, but it's about keeping namespaces tidy :)
+Aug 02 06:04:10 <darksentinel>	take a look at the updated spec
+Aug 02 06:05:01 <darksentinel>	and let me know what you think
+Aug 02 06:06:32 <markup>	underscores aye?
+Aug 02 06:06:38 <markup>	I'm down with that
+Aug 02 06:07:07 <markup>	> /user/id=FOO
+Aug 02 06:07:20 <markup>	Make it /user/<username>
+Aug 02 06:08:13 <darksentinel>	ok, and /user can just be the user's profile page
+Aug 02 06:08:14 <markup>	The search app will be interesting. CS101 FTW!
+Aug 02 06:08:22 <darksentinel>	don't need a /user/profile
+Aug 02 06:08:25 <darksentinel>	didn't do it :p
+Aug 02 06:08:52 <markup>	lol, cheat!
+Aug 02 06:09:21 <markup>	It was pretty good even for experienced programmers (or so i've been told)
+Aug 02 06:09:26 <darksentinel>	I did a Java CS101 as part of uni
+Aug 02 06:09:36 <darksentinel>	I'm sure it would be, but I only have finite time :)
+Aug 02 06:09:43 <markup>	You could have just skipped the videos and did the project
+Aug 02 06:09:46 <darksentinel>	and youtube bandwidth, for that matter
+Aug 02 06:09:47 <markup>	fair point
+Aug 02 06:10:37 <darksentinel>	e.g. for CS253 I did it for the scaleable webapp info. I've already done a blog and pastebin in wepby using SQLite.
+Aug 02 06:10:55 <markup>	nice
+Aug 02 06:12:08 <darksentinel>	and CS262 I'm doing for the language parsing and interpreting. Picking my papers carefully.
+Aug 02 06:12:28 <darksentinel>	Eagerly anticipating Coursera's machine learning classes.
+Aug 02 06:13:19 <markup>	BTW I only put jQuery in there because it's the default for noobs (me included). I'd be happy to use something slimmer, as long as it isn't pure javascript or require a degree to decipher. http://zeptojs.com/ maybe?
+Aug 02 06:13:43 <markup>	zepto has everything we need
+Aug 02 06:14:01 <markup>	> The default build includes the following modules:
+Aug 02 06:14:02 <markup>	Core, Ajax, Event, Form, Effects, Polyfill, and Detect.
+Aug 02 06:14:40 <darksentinel>	I have a degree, doesn't help with some stuff :p
+Aug 02 06:14:47 <markup>	And only 8.4k, so slim enough to not be a bottleneck on mobile. I'll make the site responsive so it is easy to use on mobile as well
+Aug 02 06:15:30 <darksentinel>	maybe
+Aug 02 06:16:26 <markup>	OK. But you have js experience, right?
+Aug 02 06:16:40 <darksentinel>	isn't gzipped jquery only 22kb?
+Aug 02 06:16:50 <darksentinel>	sure, a bit.
+Aug 02 06:17:01 <darksentinel>	small scale JS, anyway. Stuff like UdacityPlus.
+Aug 02 06:17:16 <markup>	minified and gzipped is 47k i believe.
+Aug 02 06:17:30 <markup>	jQuery has gained some weight in the last 3yrs
+Aug 02 06:18:11 <darksentinel>	mind you, the same goes for all my programming experience: not much over 1k lines, and nothing over 10k.
+Aug 02 06:18:19 <markup>	OK since you can do js… than you're the js guy on the team. Decide for us, please.
+Aug 02 06:19:38 <markup>	I can do jquery because anyone who reads their docs can use jquery… just some copypaste, change a selector, and run. So i can use the stuff even though i don't understand it :P
+Aug 02 06:20:05 <darksentinel>	the size for jquery isn't a big deal, even on mobile (unless ram is extremely limited and that really depends on how much JS we're writing). Stuff like http://samsaffron.com/archive/2012/02/17/stop-paying-your-jquery-tax/ is more important to consider.
+Aug 02 06:20:09 <markup>	I did do codecademy about halfway.. then life got in the way and i got busy
+Aug 02 06:20:55 <darksentinel>	my gut is to go with jquery and reevaluate later
+Aug 02 06:20:58 <markup>	Nice. Yeah i always put js in the footer
+Aug 02 06:21:45 <darksentinel>	udacity site is annoying, load/ready events don't trigger until all the mathjax and gravatar stuff has loaded
+Aug 02 06:22:08 <markup>	ok. if you think thats best, lets do that. It's only a handful of us writing code, so changing later won't be hard :)
+Aug 02 06:22:31 <markup>	gravatar can be slow
+Aug 02 06:22:34 <darksentinel>	I don't know what your internet is like in Fiji, but here in NZ we get 200ms+ latency so adding loading time to the <head> doesn't make a difference
+Aug 02 06:23:23 <markup>	my latency is 300ms on a good day :P
+Aug 02 06:23:34 <markup>	Crappy Vodafone 3g
+Aug 02 06:23:58 <darksentinel>	not opposed to using something completely different, but since this is all hobby stuff and the motif is "do what you know" and "stick to the basics", jquery it is
+Aug 02 06:24:51 <markup>	But i don't evaluate load-times by my own speed.. obviously the bottleneck there is always the latency and thin pipe. I  test against pagespeed and a few other services
+Aug 02 06:25:02 <markup>	Roger that!
+Aug 02 06:25:20 <darksentinel>	I get decent speeds though, for ADSL, but the latency is less than fun for gaming.
+Aug 02 06:25:48 <darksentinel>	killed my starcraft "career" lol
+Aug 02 06:28:09 <markup>	lol
+Aug 02 06:28:24 <markup>	i dont game any more.
+Aug 02 06:28:58 <markup>	deleted my steam account around a year ago… i was spending too much time playing and not enough time creating stuff.
+Aug 02 06:29:08 <darksentinel>	totally agree
+Aug 02 06:29:24 <darksentinel>	I'll probably continue to play a few absolute favourites
+Aug 02 06:29:24 <markup>	Have you seen Zapier?
+Aug 02 06:29:29 <darksentinel>	as they come out
+Aug 02 06:29:30 <darksentinel>	nope
+Aug 02 06:29:46 <markup>	They have lots of apps you can integrate with
+Aug 02 06:29:46 <markup>	https://zapier.com/zapbook/
+Aug 02 06:31:15 <markup>	makes it easy to interface with all sorts of web services.
+Aug 02 06:31:20 <darksentinel>	neat
+Aug 02 06:31:28 <darksentinel>	limit of 5 for free
+Aug 02 06:32:18 <markup>	its written in python
+Aug 02 06:45:35 <markup>	back in 2hrs, or tmro
+Aug 02 06:46:42 <darksentinel>	kk
+Aug 02 06:48:24 	markup has quit (Quit: Leaving.)
+Aug 02 06:58:27 	AbbotBot has quit (Remote host closed the connection)
+Aug 02 06:58:37 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 02 06:59:37 <darksentinel>	Ok, new logs can be found at http://ds-ex.codemonki.es/resources/irc_logs.html this is a portal page which includes links to daily log files
+Aug 02 07:42:06 	darksentinel has quit (Quit: I was using NaN0 IRC.)
+Aug 02 15:08:43 	AnthonyUdacity (~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net) has joined ##udacitymagazine
+Aug 02 15:09:08 	AnthonyUdacity has quit (Remote host closed the connection)
+**** ENDING LOGGING AT Thu Aug 02 16:05:56 2012
+
