@@ -1,0 +1,197 @@
+﻿**** BEGIN LOGGING AT Thu Aug 02 16:07:36 2012
+
+Aug 02 16:10:03 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 02 17:04:37 	jinkoo (82d83e28@gateway/web/freenode/ip.130.216.62.40) has joined ##udacitymagazine
+Aug 02 17:04:47 <jinkoo>	sup zeffii
+Aug 02 17:05:03 <zeffii>	codin like a madman
+Aug 02 17:05:11 <zeffii>	you?
+Aug 02 17:07:43 <jinkoo>	not much
+Aug 02 17:08:05 <jinkoo>	struggling with wxPython to build a utility I've needed for a while
+Aug 02 17:33:39 <zeffii>	i've coded about 50 lines without running :)
+Aug 02 17:33:44 <zeffii>	that's always exciting
+Aug 02 17:38:54 <zeffii>	woops. more like 70 (python)
+Aug 02 17:47:38 <jinkoo>	because when you do run you get to debug 70 lines? :)
+Aug 02 17:57:42 <zeffii>	naw, just one line :)
+Aug 02 18:07:38 <zeffii>	yay. it works!
+Aug 02 18:09:10 <zeffii>	if you want some nightmare on elmstreet coding : https://gist.github.com/3241119
+Aug 02 18:36:47 <jinkoo>	you got a portfolio of blender work?
+Aug 02 18:38:22 <zeffii>	not done much lately : http://digitalaphasia.com/projects/Various-3D-Models-6/
+Aug 02 18:55:10 <jinkoo>	neato
+Aug 02 21:39:26 	AnthonyUdacity (~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net) has joined ##udacitymagazine
+Aug 02 22:02:12 <jinkoo>	AnthonyUdacity: logs are now at http://ds-ex.codemonki.es/resources/irc_logs.html, do you mind updating the topic?
+Aug 02 22:02:48 <jinkoo>	Also, we now actually have some code and specifications for the project
+Aug 02 22:10:48 <zeffii>	jinkoo: https://gist.github.com/3241119
+Aug 02 22:10:52 <zeffii>	\o/
+Aug 02 22:14:26 <jinkoo>	better :)
+Aug 02 23:02:11 <AnthonyUdacity>	Hey everyone. Been pretty busy the past week. Please keep me updated with new posts on the forum or email me at anthony@udacity.com. Stay Udacious!
+Aug 02 23:02:14 	AnthonyUdacity (~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net) has left ##udacitymagazine
+Aug 03 01:00:29 	jinkoo has quit (Quit: Page closed)
+Aug 03 01:33:34 	zeffii has quit (Remote host closed the connection)
+Aug 03 09:59:55 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 03 14:32:04 	zeffii has quit (*.net *.split)
+Aug 03 14:36:52 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 03 14:37:25 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Aug 03 16:50:29 >NickServ<	identify ****
+Aug 03 16:50:30 -NickServ-	You are now identified for DavidLL.
+**** BEGIN LOGGING AT Fri Aug 03 23:17:24 2012
+
+Aug 03 23:17:24 	Now talking on ##udacitymagazine
+Aug 03 23:17:24 *	Topic for ##udacitymagazine is: Tomorrow's illustrious Udacity Magazine
+Aug 03 23:17:24 *	Topic for ##udacitymagazine set by AnthonyUdacity!~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net at Tue Jul 24 02:32:36 2012
+Aug 04 01:24:40 	jinkoo (~jinkoo@121.98.213.113) has joined ##udacitymagazine
+Aug 04 05:38:36 *	Disconnected (Connection reset by peer).
+**** ENDING LOGGING AT Sat Aug 04 05:38:36 2012
+
+**** BEGIN LOGGING AT Sat Aug 04 05:39:00 2012
+
+Aug 04 05:39:00 	Now talking on ##udacitymagazine
+Aug 04 05:39:00 *	Topic for ##udacitymagazine is: Tomorrow's illustrious Udacity Magazine
+Aug 04 05:39:00 *	Topic for ##udacitymagazine set by AnthonyUdacity!~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net at Tue Jul 24 02:32:36 2012
+Aug 04 06:36:48 <jinkoo>	DavidLL: busy in here...
+Aug 04 06:38:12 <DavidLL>	Lol 
+Aug 04 06:38:57 <DavidLL>	Just started looking at my code for the first time in a week
+Aug 04 06:40:17 <DavidLL>	My real job is killing me with extra hours every day.
+Aug 04 06:52:02 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 04 07:43:23 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Aug 04 16:36:59 	zeffii has quit (Ping timeout: 250 seconds)
+Aug 04 18:18:25 	markup (~Adium@183.81.141.59) has joined ##udacitymagazine
+Aug 04 18:24:07 <markup>	Hey guys
+Aug 04 18:24:23 <DavidLL>	Howdy
+Aug 04 18:26:08 <markup>	Home got burgled on Friday so I've been busy getting that sorted. Will hopefully get some Udacious work done tonight.
+Aug 04 18:26:30 <DavidLL>	That sux
+Aug 04 18:26:37 <markup>	Bastards took my Udacity t-shirt too!!
+Aug 04 18:27:28 <markup>	Yeah, second time in 2 weeks.
+Aug 04 18:27:46 <markup>	So busy cleaning up and finding a new home as well.
+Aug 04 18:27:51 <DavidLL>	wow You need a big scary dog
+Aug 04 18:28:42 <markup>	indeed :)
+Aug 04 18:29:06 <DavidLL>	I hope You move far from that area
+Aug 04 18:29:51 <markup>	4yrs in this house without so much as a trespassing cat, and then hit twice in two weeks. Yeah, moving to a more secure area
+Aug 04 18:33:00 <DavidLL>	Some guy's tried to break in my house once. My friend down the street saw them and beat them to a pulp and called the cops
+Aug 04 18:33:55 <DavidLL>	They were beat-up and arrested
+Aug 04 18:41:31 	jinkoo (~jinkoo@121.98.213.113) has joined ##udacitymagazine
+Aug 04 18:42:27 <markup>	I'm calm and rational now, but for a few hours after I discovered the burglary, I'd have loved to have beaten those bastards to a pulp. Stole my sons piggy bank and his school bag, without even the courtesy of emptying the bag of his school books first.
+Aug 04 18:42:44 <markup>	#rage
+Aug 04 18:42:53 <jinkoo>	yeah that's bs
+Aug 04 18:42:54 <markup>	Hey jinkoo
+Aug 04 18:43:24 <jinkoo>	yo
+Aug 04 18:43:39 <jinkoo>	logs are useful
+Aug 04 18:44:10 <markup>	:)
+Aug 04 18:45:19 <markup>	nice pull request. Sorry about not commenting my code properly
+Aug 04 18:47:18 <jinkoo>	markup: maybe you can tell me. Why are the nuggets for the udacity lessons so weird? instead of /unit/number Unit/531001/Nugget/568001
+Aug 04 18:48:03 <markup>	beats me. <confused_face>
+Aug 04 18:49:05 <markup>	Maybe ask on the tech support forum. The Udacity engineers are on there http://forums.udacity.com/technical-support
+Aug 04 18:49:36 <jinkoo>	it's not really a support question, more "why did you choose this?". not really important since I doubt they will change it :)
+Aug 04 18:50:05 <jinkoo>	I wrote a script to collect the data that maps the hashlinks to course/unit/lesson, just in case.
+Aug 04 18:50:33 <jinkoo>	DavidLL: markup: we need to start documenting the API
+Aug 04 18:50:34 <markup>	:)
+Aug 04 18:51:42 <markup>	Agreed
+Aug 04 18:53:24 <jinkoo>	Anyone got a good idea for format? Needs to be easily editable. Google docs spreadsheet? HTML table included in the github project? Separate github just for the API, since it will be updated frequently?
+Aug 04 18:57:09 <jinkoo>	also, before I can progress further on the commenting system, I need to know if we will allow nested comments (i.e. replies to a comment create a new branch)?
+Aug 04 18:58:21 <DavidLL>	Sorry had to deal with the woman
+Aug 04 18:59:06 <DavidLL>	Yes on docs, comments should be nestable IMHO.
+Aug 04 19:00:36 <jinkoo>	adds extra challenge :)
+Aug 04 19:01:08 <DavidLL>	Yes but that's what is fun about it!
+Aug 04 19:01:11 <jinkoo>	markup: if you add a wiki to Github, we can migrate everything there
+Aug 04 19:03:01 <DavidLL>	Is the plan for user being it's own app?
+Aug 04 19:03:14 <DavidLL>	*users
+Aug 04 19:03:17 <markup>	https://github.com/udacians/magazine/wiki
+Aug 04 19:04:26 <markup>	@David see the directory structure https://github.com/udacians/magazine/tree/master/udacious/apps
+Aug 04 19:04:52 <markup>	Answer is yes.
+Aug 04 19:07:17 <jinkoo>	Someone clarify NDB caching for me: do we still have to manually write datastore queries to memcache? https://developers.google.com/appengine/docs/python/ndb/cache
+Aug 04 19:07:29 <DavidLL>	Cool havent had much time to look at the wiki or the repo 
+Aug 04 19:08:06 <DavidLL>	according to the docs it will take care of most if not all of the caching
+Aug 04 19:09:40 <DavidLL>	on new puts it kills the cache then will add it with the new data (I still want to test this)
+Aug 04 19:11:21 <markup>	Yup, as I understand it, we can remove all our memcaching code. Leave it to ndb to handle. Then once the site is up and running, we can optimize by manually handling memcache if needed.
+Aug 04 19:13:15 <jinkoo>	https://github.com/udacians/magazine/wiki <- wiki migrated
+Aug 04 19:15:11 <DavidLL>	I vote for a CDN for jquery
+Aug 04 19:15:49 <markup>	Already done :P
+Aug 04 19:15:52 <markup>	https://github.com/udacians/magazine/blob/master/udacious/templates/base.html
+Aug 04 19:16:15 <markup>	It uses the goog cdn with a local fallback
+Aug 04 19:16:52 <DavidLL>	Cool
+Aug 04 19:24:16 <jinkoo>	add another block inside the $(document).ready() where the //do stuff is after any key functions so people can easily extend the jquery part within their apps
+Aug 04 19:24:48 <jinkoo>	I'd do a fetch/change/commit/push/pull request but that seems like a lot of effort for such a small change
+Aug 04 19:26:22 <markup>	Whoever writes the first js for the site (probably you) can do that when they add js functionality :)
+Aug 04 19:27:09 <jinkoo>	https://github.com/udacians/magazine/wiki/API <- thoughts? It's not the most readable.
+Aug 04 19:30:57 <markup>	looks good
+Aug 04 19:31:52 <DavidLL>	It's a good start
+Aug 04 19:36:03 	markup has quit (Quit: Leaving.)
+Aug 04 21:50:31 <DavidLL>	Grr I need to learn git !!!!! :(
+Aug 04 21:53:13 <jinkoo>	it takes getting used to, that's for sure
+Aug 04 21:53:22 <jinkoo>	especially the command line
+Aug 04 21:53:36 <DavidLL>	I have screwed up my repo
+Aug 04 21:53:44 	markup (~Adium@27.123.186.210) has joined ##udacitymagazine
+Aug 04 21:54:16 <DavidLL>	I can't sync it to the upstream
+Aug 04 21:55:49 <DavidLL>	jinkoo,  Is there annother way?
+Aug 04 21:56:51 <DavidLL>	I guess I have to fork the repo again
+Aug 04 22:00:18 <DavidLL>	This git newbie really sucks. maybe if i revert I can then sync to the upstream. Any advice?
+Aug 04 22:00:36 <markup>	Sorry, not from me :(
+Aug 04 22:00:59 <DavidLL>	hmmm
+Aug 04 22:04:22 <markup>	I'm a newb too. When I have problems…. i copy any files i edited into a new folder somewhere else, delete my repo completely, and start over.
+Aug 04 22:04:47 <markup>	I'll learn the right way to handle issues one day… but it just hasn't been a priority thus far
+Aug 04 22:05:32 <DavidLL>	can I delete a forked repo?
+Aug 04 22:05:52 <markup>	yes, i believe so.
+Aug 04 22:06:12 <DavidLL>	cool will delete and fork it again
+Aug 04 22:06:14 <markup>	are you using a GUI or the command line?
+Aug 04 22:06:35 <DavidLL>	command line is there a gui?
+Aug 04 22:06:51 <markup>	yes. i only use the gui. Are you on mac or win?
+Aug 04 22:06:57 <DavidLL>	win
+Aug 04 22:07:02 <markup>	http://windows.github.com
+Aug 04 22:10:30 <markup>	@jinkoo I made the js_footer block overridable (is that a word?) so we don't load the same js on every page. the js used in the articles section will be different from the js used on profile pages or in the social network feed
+Aug 04 22:14:03 <jinkoo>	but there might be some base JS that we might want on every page, e.g. a menu
+Aug 04 22:14:35 <jinkoo>	this way there's a choice
+Aug 04 22:20:58 <DavidLL>	I havent figured out how to delete my fork
+Aug 04 22:21:34 <jinkoo>	delete it on github?
+Aug 04 22:21:44 <DavidLL>	yes
+Aug 04 22:21:49 <jinkoo>	Admin -> delete this repository
+Aug 04 22:21:50 <markup>	Yeah, delete local files, then on github
+Aug 04 22:22:09 <jinkoo>	find the admin button
+Aug 04 22:22:12 <DavidLL>	move local files
+Aug 04 22:22:23 <DavidLL>	thanks
+Aug 04 22:27:26 <markup>	@jinkoo I'm sorry, isn't the having js_footer overridable the more flexible option?
+Aug 04 22:28:13 <DavidLL>	cool it is now re-forked thanks guy's!
+Aug 04 22:29:43 <jinkoo>	mkarup: but why not have both?
+Aug 04 22:30:19 <jinkoo>	it's like with the header: have an option to just add a custom title, have an option to override everything after the title, and have an option to completely override the head
+Aug 04 22:30:28 <jinkoo>	*markup
+Aug 04 22:31:25 <markup>	glad to hear it, David :)
+Aug 04 22:35:33 <DavidLL>	I don't know if that killed my bad pull request. But I can re-send it if needed.
+Aug 04 22:35:55 <markup>	@jinkoo merged, though we should change the name of that block to be more consistent with everything else.
+Aug 04 22:36:35 <markup>	won't only be jquery code there. Maybe {% js_footer_onready %}
+Aug 04 22:38:25 <markup>	Also, maybe better to have separate blocks for the script links and the script blocks… maybe :  js_footer_file and js_footer_block ?
+Aug 04 22:44:50 <jinkoo>	hmm?
+Aug 04 22:47:13 <markup>	@David, it looks like your pull request is still good, but could you please pull again, this time just with the models file?
+Aug 04 22:47:43 <markup>	It looks like you didn't update your repo before making the pull request.
+Aug 04 22:48:25 <jinkoo>	markup: something like this https://gist.github.com/3261241?
+Aug 04 22:59:50 <markup>	Sorta… I took it further: https://gist.github.com/3261247
+Aug 04 23:01:17 <markup>	Just so we're on the same page here… are you aware of super blocks?
+Aug 04 23:02:54 <jinkoo>	vaguely
+Aug 04 23:03:04 <jinkoo>	haven't used them
+Aug 04 23:03:08 <jinkoo>	but remember seeing them in the doco
+Aug 04 23:03:24 <markup>	http://jinja.pocoo.org/docs/templates/#super-blocks
+Aug 04 23:04:36 <markup>	Just lets us -extend- rather than -override- blocks
+Aug 04 23:05:25 <markup>	I reckon that with the code i showed in the last gist and the functionality of super blocks, we can do just about anything we need to.
+Aug 04 23:18:18 <jinkoo>	it's fine.
+Aug 04 23:23:00 	markup has quit (Quit: Leaving.)
+Aug 05 01:06:47 <DavidLL>	jinkoo, do you want queries to return jason and python objects?
+Aug 05 01:07:01 <DavidLL>	json lol
+Aug 05 01:23:35 <jinkoo>	API queries? JSON
+Aug 05 01:23:50 <jinkoo>	if they're external
+Aug 05 01:24:19 <jinkoo>	if it's internal like getComments or something, then it should be python objects
+Aug 05 01:24:36 <jinkoo>	since otherwise you have to serialise and deserialise at the other end
+Aug 05 01:25:25 <DavidLL>	I was looking at your model (comment)  and query can convert to jason and return it since the comments will need to be ajaxed
+Aug 05 01:27:51 <DavidLL>	Or will they?
+Aug 05 01:54:15 	markup (~Adium@27.123.185.184) has joined ##udacitymagazine
+Aug 05 01:55:47 <markup>	hi guys, you still here?!! :P
+Aug 05 01:55:59 <DavidLL>	yes
+Aug 05 01:58:52 <DavidLL>	Im reading ndb docs trying to get my head arround self reference property(ndb version) ndb.KeyProperty(kind='ThisModelClass')
+Aug 05 02:34:51 <DavidLL>	I was going to use KeyProperty(kind = User) for the author until I learned that it pulls the whole entity and we only need the name so i figured we could get the loggin user and imput the name.
+Aug 05 02:50:19 <jinkoo>	cooking dinner and stuff
+Aug 05 02:50:24 <jinkoo>	so kinda afk
+Aug 05 02:51:27 <jinkoo>	DavidLL: Comment API is meant to return lists of Comment(ndb.Model), not JSON
+Aug 05 02:51:28 <DavidLL>	Dinner sounds good stuff not so much.
+Aug 05 02:52:23 <DavidLL>	OK then the query(s) will be simple.
+Aug 05 02:56:16 <jinkoo>	but I think any external queries will be JSON. Depends on what we're targetting with API access.
+Aug 05 02:56:50 <jinkoo>	but that's why I included the json=False/True option
+Aug 05 02:57:01 <DavidLL>	then converting to JSON should be in the handler
+Aug 05 02:59:42 <DavidLL>	Thanks for clearing that up for me.
+Aug 05 06:26:29 	jinkoo has quit (Quit: I was using NaN0 IRC.)
+Aug 05 06:28:44 	markup has quit (Quit: Leaving.)

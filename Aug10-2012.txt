@@ -1,0 +1,87 @@
+﻿**** BEGIN LOGGING AT Sun Aug 05 16:12:41 2012
+
+Aug 05 17:47:26 	darksentinel (~darksenti@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 05 19:18:05 	markup (~Adium@27.123.185.104) has joined ##udacitymagazine
+Aug 05 23:07:49 	markup has quit (Quit: Leaving.)
+Aug 06 01:43:16 <darksentinel>	woo mars rover landed
+Aug 06 05:42:36 	markup (~Adium@183.81.142.137) has joined ##udacitymagazine
+Aug 06 06:32:30 <darksentinel>	yo
+Aug 06 07:07:41 <markup>	heya
+Aug 06 07:11:30 *	Disconnected (Connection reset by peer).
+**** ENDING LOGGING AT Mon Aug 06 07:11:30 2012
+
+**** BEGIN LOGGING AT Mon Aug 06 07:11:55 2012
+
+Aug 06 07:11:55 	Now talking on ##udacitymagazine
+Aug 06 07:11:55 *	Topic for ##udacitymagazine is: Tomorrow's illustrious Udacity Magazine
+Aug 06 07:11:55 *	Topic for ##udacitymagazine set by AnthonyUdacity!~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net at Tue Jul 24 02:32:36 2012
+Aug 06 07:22:55 	markup has quit (Quit: Leaving.)
+Aug 06 08:24:28 -jtrucks-	[GLOBAL NOTICE] The human eye is a wonderful device. With a little effort, it can fail to see even the most glaring injustice.
+Aug 06 14:31:24 	darksent1nel (~darksenti@120.138.21.119) has joined ##udacitymagazine
+Aug 06 14:39:06 	darksentinel has quit (Remote host closed the connection)
+Aug 06 15:04:04 *	Disconnected (Connection reset by peer).
+**** ENDING LOGGING AT Mon Aug 06 15:04:04 2012
+
+**** BEGIN LOGGING AT Mon Aug 06 15:04:31 2012
+
+Aug 06 15:04:31 	Now talking on ##udacitymagazine
+Aug 06 15:04:31 *	Topic for ##udacitymagazine is: Tomorrow's illustrious Udacity Magazine
+Aug 06 15:04:31 *	Topic for ##udacitymagazine set by AnthonyUdacity!~chatzilla@23-24-209-142-static.hfc.comcastbusiness.net at Tue Jul 24 02:32:37 2012
+Aug 06 15:07:57 	DavidLL has quit (Ping timeout: 246 seconds)
+Aug 06 16:36:55 	markup (~Adium@183.81.140.65) has joined ##udacitymagazine
+Aug 06 17:21:17 *	darksent1nel is now known as darksentinel
+Aug 06 17:52:22 <Frazzle_>	darksentinel, ?
+Aug 06 17:55:10 *	You are now known as DavidLL
+Aug 06 17:55:11 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Aug 06 18:01:34 <DavidLL>	Must be at work.
+Aug 06 18:04:53 <DavidLL>	darksentinel, When You get a chance let me know what you think of this. : https://gist.github.com/3278785 Still need JSON implementation will this work or will the nesting need more level's?
+**** ENDING LOGGING AT Mon Aug 06 18:31:04 2012
+
+**** BEGIN LOGGING AT Mon Aug 06 18:31:04 2012
+
+Aug 06 18:42:39 	markup has quit (Quit: Leaving.)
+Aug 06 19:23:51 <darksentinel>	Frazzle_: sup
+Aug 06 19:24:40 <darksentinel>	DavidLL: make nesting recursive
+Aug 06 19:25:17 <darksentinel>	that's one thing we can use get_child_comments for: recursion
+Aug 06 19:26:13 <darksentinel>	and for JSON, the base Comment class will just have a to_JSON method, so can iterate and convert each comment to JSON then return the whole array via JSON.dumps()
+Aug 07 03:43:37 	AbbotBot has quit (*.net *.split)
+Aug 07 04:11:44 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 07 04:55:37 <darksentinel>	yo
+Aug 07 06:45:43 	markup (~Adium@183.81.141.218) has joined ##udacitymagazine
+Aug 07 07:20:19 <darksentinel>	sweet, U+ is coming along nicely
+Aug 07 07:26:01 <darksentinel>	and now, sleep
+Aug 07 08:14:53 	markup has quit (Quit: Leaving.)
+Aug 07 15:45:58 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 07 17:52:22 	markup (~Adium@183.81.139.116) has joined ##udacitymagazine
+Aug 07 18:31:06 <darksentinel>	morning
+Aug 07 18:47:02 	zeffii has quit (Quit: Leaving)
+Aug 07 19:17:50 <darksentinel>	DavidLL: did you have an update you wanted to push?
+Aug 07 20:50:49 	markup has quit (Ping timeout: 245 seconds)
+Aug 08 12:33:23 	AbbotBot has quit (*.net *.split)
+Aug 08 16:02:13 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:32:47 	AbbotBot has quit (Remote host closed the connection)
+Aug 08 17:32:56 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:33:02 	AbbotBot has quit (Read error: Connection reset by peer)
+Aug 08 17:35:54 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:35:55 	AbbotBot has quit (Read error: Connection reset by peer)
+Aug 08 17:36:20 <darksentinel>	damnit
+Aug 08 17:36:51 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:40:07 	darksentinel has quit (Quit: leaving)
+Aug 08 17:42:07 	AbbotBot has quit (Remote host closed the connection)
+Aug 08 17:42:16 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:42:44 	darksentinel (~darksenti@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 08 17:48:24 <darksentinel>	hmmm, stupid bot
+Aug 08 17:48:46 <darksentinel>	or maybe stupid bot-coder
+Aug 09 07:45:54 	markup (~Adium@183.81.136.90) has joined ##udacitymagazine
+Aug 09 08:29:45 	markup has quit (Quit: Leaving.)
+Aug 09 16:39:35 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 09 19:52:07 	zeffii has quit (Remote host closed the connection)
+Aug 10 04:47:36 	markup (~Adium@183.81.140.115) has joined ##udacitymagazine
+Aug 10 06:05:34 	markup has quit (Quit: Leaving.)
+Aug 10 09:18:56 	zeffii (~zeffii@s559744a7.adsl.wanadoo.nl) has joined ##udacitymagazine
+Aug 10 18:22:18 	zeffii has quit (Quit: Leaving)
+Aug 10 20:51:25 	AbbotBot has quit (*.net *.split)
+Aug 10 20:57:55 	AbbotBot (~AbbotBot@ds-ex.codemonki.es) has joined ##udacitymagazine
+Aug 10 20:58:05 	AbbotBot has quit (Ping timeout: 261 seconds)
+**** ENDING LOGGING AT Fri Aug 10 22:47:07 2012
+
